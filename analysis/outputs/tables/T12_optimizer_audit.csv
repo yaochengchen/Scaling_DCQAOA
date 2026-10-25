@@ -1,0 +1,4 @@
+run,optimizations,not_converged,abnormal,maxiter_hit,instance_p_method_all8_failed,eval_calls,gpu_slot_hours
+small,320000,10172,8726,1446,0,15705412,301.2215869453606
+large,192000,7109,7082,27,0,7910778,239.85343442805706
+n18p6,80000,2929,2597,332,0,4041458,124.46386664147677

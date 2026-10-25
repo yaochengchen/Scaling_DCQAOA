@@ -1,0 +1,11 @@
+{
+ "seed": 20261011,
+ "depths": [1],
+ "optimization": {"restarts": 2, "maxiter": 14},
+ "shots": 128,
+ "datasets": {
+   "train": {"n": [6, 8], "families": ["ring", "er3"], "weights": ["unit", "uniform"], "samples_per_cell": 1},
+   "val": {"n": [6, 8], "families": ["ring", "er3"], "weights": ["unit", "uniform"], "samples_per_cell": 1},
+   "test": {"n": [6, 8], "families": ["regular3"], "weights": ["bimodal"], "samples_per_cell": 2}
+ }
+}

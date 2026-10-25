@@ -1,0 +1,15 @@
+test-n12-regular3-unit-000       fixed 0.8928 -> refined 0.9003 (+0.0076; 21 calls, 99% at 10) | random mean 0.8451, best 0.9003, 2/20 reach fixed
+test-n12-regular3-unit-001       fixed 0.8777 -> refined 0.9074 (+0.0297; 78 calls, 99% at 14) | random mean 0.8276, best 0.9074, 7/20 reach fixed
+test-n12-regular3-unit-002       fixed 0.8692 -> refined 0.8802 (+0.0111; 34 calls, 99% at 15) | random mean 0.7894, best 0.8803, 3/20 reach fixed
+test-n12-er3-unit-000            fixed 0.9131 -> refined 0.9155 (+0.0024; 14 calls, 99% at 8) | random mean 0.8112, best 0.9155, 4/20 reach fixed
+test-n12-er3-unit-001            fixed 0.9165 -> refined 0.9188 (+0.0023; 35 calls, 99% at 10) | random mean 0.8410, best 0.9188, 8/20 reach fixed
+test-n12-er3-unit-002            fixed 0.8860 -> refined 0.8904 (+0.0044; 15 calls, 99% at 10) | random mean 0.8332, best 0.8904, 8/20 reach fixed
+test-n12-regular3-uniform-000    fixed 0.8633 -> refined 0.8701 (+0.0069; 20 calls, 99% at 13) | random mean 0.7688, best 0.8711, 9/20 reach fixed
+test-n12-regular3-uniform-001    fixed 0.9095 -> refined 0.9131 (+0.0036; 34 calls, 99% at 9) | random mean 0.8065, best 0.9134, 6/20 reach fixed
+test-n12-regular3-uniform-002    fixed 0.9027 -> refined 0.9070 (+0.0042; 25 calls, 99% at 11) | random mean 0.7491, best 0.9070, 3/20 reach fixed
+test-n12-er3-uniform-000         fixed 0.9014 -> refined 0.9080 (+0.0066; 41 calls, 99% at 14) | random mean 0.7504, best 0.9080, 6/20 reach fixed
+test-n12-er3-uniform-001         fixed 0.8759 -> refined 0.8854 (+0.0095; 27 calls, 99% at 10) | random mean 0.7747, best 0.8854, 7/20 reach fixed
+test-n12-er3-uniform-002         fixed 0.9102 -> refined 0.9154 (+0.0052; 15 calls, 99% at 10) | random mean 0.7995, best 0.9154, 4/20 reach fixed
+
+mean fixed 0.8932 -> refined 0.9010; mean gain 0.0078 (min 0.0023, max 0.0297); mean 30 value-and-gradient calls; 241 s total
+random chains: mean final 0.7997; 67/240 reach the formula value

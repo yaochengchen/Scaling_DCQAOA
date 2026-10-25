@@ -1,0 +1,11 @@
+{
+ "seed": 20261017,
+ "depths": [1,2],
+ "optimization": {"restarts": 1, "maxiter": 5},
+ "shots": 16,
+ "datasets": {
+  "train": {"n": [6], "families": ["er3"], "weights": ["uniform"], "samples_per_cell": 2},
+  "val": {"n": [6], "families": ["er3"], "weights": ["uniform"], "samples_per_cell": 2},
+  "test": {"n": [8], "families": ["regular3"], "weights": ["bimodal"], "samples_per_cell": 2}
+ }
+}

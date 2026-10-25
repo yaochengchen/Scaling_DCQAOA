@@ -1,0 +1,4 @@
+run,n,depths,families,weights,train,val,test,optimizations,not_converged_%,gpu_slot_hours,cd_opt_worse_than_qaoa_opt
+eqdepth_small_N20,"10,12,14,16","1,2,3,4,6",10,5,4000,2000,4000,320000,3.17875,301.2215869453606,0
+eqdepth_large_N20,"18,20,22","1,2,3,4",10,5,3000,1500,3000,192000,3.7026041666666667,239.85343442805706,0
+eqdepth_n18p6_N20,18,"1,2,3,4,6",10,5,1000,500,1000,80000,3.66125,124.46386664147677,0

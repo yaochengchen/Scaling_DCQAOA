@@ -1,0 +1,101 @@
+{
+  "all": {
+    "bootstrap_95_ci": [
+      -0.039209921365143875,
+      -0.026333845110832976
+    ],
+    "loss_rate": 0.8271604938271605,
+    "max_gain": 0.05403360755901987,
+    "mean_gain": -0.03245032324049941,
+    "median_gain": -0.028510286961834004,
+    "min_gain": -0.3132629425136132,
+    "n": 162,
+    "tie_rate": 0.0,
+    "win_rate": 0.1728395061728395
+  },
+  "depth-1": {
+    "bootstrap_95_ci": [
+      -0.01739546363200728,
+      -0.006179737216133387
+    ],
+    "loss_rate": 0.6666666666666666,
+    "max_gain": 0.05403360755901987,
+    "mean_gain": -0.011657639647257783,
+    "median_gain": -0.01214260230509825,
+    "min_gain": -0.10905829482088182,
+    "n": 81,
+    "tie_rate": 0.0,
+    "win_rate": 0.3333333333333333
+  },
+  "depth-2": {
+    "bootstrap_95_ci": [
+      -0.0637935674291104,
+      -0.04446708292713233
+    ],
+    "loss_rate": 0.9876543209876543,
+    "max_gain": 0.030383506536038673,
+    "mean_gain": -0.05324300683374103,
+    "median_gain": -0.04204489666437272,
+    "min_gain": -0.3132629425136132,
+    "n": 81,
+    "tie_rate": 0.0,
+    "win_rate": 0.012345679012345678
+  },
+  "interpretation": "Exploratory sensitivity selected after the primary 3p comparison; method choice itself uses validation only.",
+  "representative_native_counts": [
+    {
+      "cd": {
+        "basis": [
+          "cx",
+          "rz",
+          "sx",
+          "x"
+        ],
+        "cx": 72,
+        "depth": 74,
+        "optimization_level": 3,
+        "size": 319
+      },
+      "p_cd": 1,
+      "qaoa": {
+        "basis": [
+          "cx",
+          "rz",
+          "sx",
+          "x"
+        ],
+        "cx": 72,
+        "depth": 52,
+        "optimization_level": 3,
+        "size": 258
+      }
+    },
+    {
+      "cd": {
+        "basis": [
+          "cx",
+          "rz",
+          "sx",
+          "x"
+        ],
+        "cx": 144,
+        "depth": 136,
+        "optimization_level": 3,
+        "size": 606
+      },
+      "p_cd": 2,
+      "qaoa": {
+        "basis": [
+          "cx",
+          "rz",
+          "sx",
+          "x"
+        ],
+        "cx": 144,
+        "depth": 98,
+        "optimization_level": 3,
+        "size": 480
+      }
+    }
+  ]
+}

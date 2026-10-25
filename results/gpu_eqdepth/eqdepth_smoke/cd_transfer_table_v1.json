@@ -1,0 +1,79 @@
+{
+  "caution": "Pilot calibration only until large independent confirmation",
+  "formula": "gamma=gamma_unit*degree_factor(D)/rms; beta=beta_table; alpha=alpha_unit/rms*(D/D0)**b*c",
+  "rows": [
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "alpha_unit": -0.17413957465045413,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.4899232321853081,
+      "gamma_unit": -0.500690928096741,
+      "layer": 1,
+      "p": 1,
+      "reference_degree": 5.444444444444445,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "alpha_unit": -0.13703858279109765,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.6524472391222231,
+      "gamma_unit": -0.3949193757594918,
+      "layer": 1,
+      "p": 2,
+      "reference_degree": 5.444444444444445,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "alpha_unit": -0.03663269118261918,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.22639448101634785,
+      "gamma_unit": -0.8961662851616742,
+      "layer": 2,
+      "p": 2,
+      "reference_degree": 5.444444444444445,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "alpha_unit": -0.13199335217908198,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.7888947460233339,
+      "gamma_unit": -0.32617316173792776,
+      "layer": 1,
+      "p": 3,
+      "reference_degree": 5.444444444444445,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "alpha_unit": -0.07712827976153884,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.433769433581735,
+      "gamma_unit": -0.874280149489657,
+      "layer": 2,
+      "p": 3,
+      "reference_degree": 5.444444444444445,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "alpha_unit": -0.029551322344018086,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.1791326827070046,
+      "gamma_unit": -0.8177081830328944,
+      "layer": 3,
+      "p": 3,
+      "reference_degree": 5.444444444444445,
+      "source_csv_gamma_sign": -1
+    }
+  ],
+  "zero_target_instance_training": true
+}

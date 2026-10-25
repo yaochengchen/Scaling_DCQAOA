@@ -1,0 +1,16 @@
+{
+  "measurements": [
+    {
+      "n": 22,
+      "processes_per_gpu": 1,
+      "calls_per_second_all_gpus": 19.51887633488828
+    }
+  ],
+  "best_processes_per_gpu": {
+    "22": 1
+  },
+  "options": "--slots-per-gpu 1",
+  "p": 3,
+  "seconds": 20,
+  "dtype": "complex128"
+}

@@ -1,0 +1,4 @@
+p,layer,gamma_unit,beta,alpha_unit,reference_degree,alpha_degree_power,alpha_multiplier,source_csv_gamma_sign,angle_convention
+1,1,-0.4956227054284411,0.46094955918648306,-0.17673179131513422,3.0,-0.5,1.0,-1,U_B U_CD U_C; H_C=sum JZZ; little_endian
+2,1,-0.40703768888180336,0.5977566202607629,-0.14233536881266412,3.0,-0.5,1.0,-1,U_B U_CD U_C; H_C=sum JZZ; little_endian
+2,2,-0.8494824053048085,0.217756556535028,-0.035571420906302796,3.0,-0.5,1.0,-1,U_B U_CD U_C; H_C=sum JZZ; little_endian

@@ -1,0 +1,78 @@
+{
+ "_note": "timing pilot: feed into scripts/22_estimate_cost.py before the large runs",
+ "comparison": "same_depth",
+ "seed": 20261013,
+ "depths": [
+  1,
+  2,
+  3,
+  4,
+  6
+ ],
+ "shots": 0,
+ "exact_max_n": 24,
+ "execution": {
+  "backend": "lightning.gpu",
+  "dtype": "complex128",
+  "gpus": "0,1,2,3,4,5,6,7",
+  "slots_per_gpu": 1,
+  "task_weight_by_n": {}
+ },
+ "optimization": {
+  "restarts": 2,
+  "maxiter": 200
+ },
+ "datasets": {
+  "train": {
+   "n": [
+    18,
+    22
+   ],
+   "families": [
+    "ring",
+    "regular3",
+    "regular6",
+    "er05"
+   ],
+   "weights": [
+    "uniform",
+    "heavy_tail"
+   ],
+   "samples_per_cell": 2
+  },
+  "val": {
+   "n": [
+    18,
+    22
+   ],
+   "families": [
+    "ring",
+    "regular3",
+    "regular6",
+    "er05"
+   ],
+   "weights": [
+    "uniform",
+    "heavy_tail"
+   ],
+   "samples_per_cell": 1
+  },
+  "test": {
+   "n": [
+    18,
+    22
+   ],
+   "families": [
+    "ring",
+    "regular3",
+    "regular6",
+    "er05"
+   ],
+   "weights": [
+    "uniform",
+    "heavy_tail"
+   ],
+   "samples_per_cell": 1
+  }
+ }
+}

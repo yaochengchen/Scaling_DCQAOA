@@ -1,0 +1,74 @@
+{
+ "_note": "scale extension once 18-24 is done",
+ "comparison": "same_depth",
+ "seed": 20261014,
+ "depths": [
+  1,
+  2,
+  3,
+  4
+ ],
+ "shots": 0,
+ "exact_max_n": 28,
+ "execution": {
+  "backend": "lightning.gpu",
+  "dtype": "complex128",
+  "gpus": "0,1,2,3,4,5,6,7",
+  "slots_per_gpu": 1,
+  "task_weight_by_n": {}
+ },
+ "optimization": {
+  "restarts": 4,
+  "maxiter": 200
+ },
+ "datasets": {
+  "train": {
+   "n": [
+    26,
+    28
+   ],
+   "families": [
+    "regular3",
+    "er3",
+    "er05"
+   ],
+   "weights": [
+    "uniform",
+    "lognormal"
+   ],
+   "samples_per_cell": 10
+  },
+  "val": {
+   "n": [
+    26,
+    28
+   ],
+   "families": [
+    "regular3",
+    "er3",
+    "er05"
+   ],
+   "weights": [
+    "uniform",
+    "lognormal"
+   ],
+   "samples_per_cell": 5
+  },
+  "test": {
+   "n": [
+    26,
+    28
+   ],
+   "families": [
+    "regular3",
+    "er3",
+    "er05"
+   ],
+   "weights": [
+    "uniform",
+    "lognormal"
+   ],
+   "samples_per_cell": 5
+  }
+ }
+}

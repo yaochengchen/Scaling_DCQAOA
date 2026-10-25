@@ -1,0 +1,13 @@
+# conda env create -f environment.yml && conda activate cdqaoa && pip install -e '.[gpu,dev]'
+name: cdqaoa
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - scipy
+  - networkx
+  - matplotlib
+  - threadpoolctl
+  - pytest

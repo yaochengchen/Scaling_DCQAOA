@@ -1,0 +1,14 @@
+{
+  "family": "regular3",
+  "weight_kind": "unit",
+  "n_qubits": 12,
+  "p": 1,
+  "instances": 5,
+  "starts": 3,
+  "max_evaluations": 100,
+  "base_seed": 20261012,
+  "optimizer": "Nelder-Mead",
+  "methods": ["qaoa", "cd_qaoa"],
+  "source_records": "results/maxcut_approximation_current_formula/records.json",
+  "output_dir": "results/variational_catchup_pilot"
+}

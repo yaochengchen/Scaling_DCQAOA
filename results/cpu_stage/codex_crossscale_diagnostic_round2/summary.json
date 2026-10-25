@@ -1,0 +1,98 @@
+{
+  "all": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.11741541135273442,
+      -0.07455085046062197
+    ],
+    "mean_gain": -0.09354110639286813,
+    "median_gain": -0.07203488442956843,
+    "n": 24,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "depth-1": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.08981060226829142,
+      -0.061115216963250014
+    ],
+    "mean_gain": -0.07265390127387229,
+    "median_gain": -0.06490658660649,
+    "n": 12,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "depth-2": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.1541258603229565,
+      -0.0795994500272919
+    ],
+    "mean_gain": -0.11442831151186399,
+    "median_gain": -0.10081257779654576,
+    "n": 12,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "family-er6": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.12657113014834417,
+      -0.06679537459023867
+    ],
+    "mean_gain": -0.09361904595485744,
+    "median_gain": -0.06846338857828183,
+    "n": 12,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "family-regular3": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.12643697772777654,
+      -0.06712263212542507
+    ],
+    "mean_gain": -0.09346316683087881,
+    "median_gain": -0.07337230244905155,
+    "n": 12,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "weights-bimodal": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.08611396001451299,
+      -0.058858804639561016
+    ],
+    "mean_gain": -0.07124462485170967,
+    "median_gain": -0.06216842608733185,
+    "n": 8,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "weights-heavy_tail": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.184382419911465,
+      -0.0836411564302693
+    ],
+    "mean_gain": -0.13421509525984798,
+    "median_gain": -0.12056195198220451,
+    "n": 8,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  },
+  "weights-lognormal": {
+    "all_equal_budget_decomposition": true,
+    "bootstrap_95_ci": [
+      -0.0909848693042659,
+      -0.061815686654888694
+    ],
+    "mean_gain": -0.07516359906704673,
+    "median_gain": -0.06980080659776494,
+    "n": 8,
+    "tie_rate": 0.0,
+    "win_rate": 0.0
+  }
+}

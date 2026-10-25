@@ -1,0 +1,43 @@
+{
+  "caution": "Pilot calibration only until large independent confirmation",
+  "formula": "gamma=gamma_unit*degree_factor(D)/rms; beta=beta_table; alpha=alpha_unit/rms*(D/D0)**b*c",
+  "rows": [
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.17673179131513422,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.46094955918648306,
+      "gamma_unit": -0.4956227054284411,
+      "layer": 1,
+      "p": 1,
+      "reference_degree": 3.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.14233536881266412,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.5977566202607629,
+      "gamma_unit": -0.40703768888180336,
+      "layer": 1,
+      "p": 2,
+      "reference_degree": 3.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.035571420906302796,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.217756556535028,
+      "gamma_unit": -0.8494824053048085,
+      "layer": 2,
+      "p": 2,
+      "reference_degree": 3.0,
+      "source_csv_gamma_sign": -1
+    }
+  ],
+  "zero_target_instance_training": true
+}

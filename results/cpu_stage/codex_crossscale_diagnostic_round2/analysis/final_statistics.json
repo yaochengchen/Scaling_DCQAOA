@@ -1,0 +1,220 @@
+{
+  "cd_formula_ablations": {
+    "proposed_vs_bch": {
+      "bootstrap_95_ci": [
+        0.007477528531942327,
+        0.044193855572842916
+      ],
+      "loss_rate": 0.16666666666666666,
+      "max_gain": 0.12785224610674134,
+      "mean_gain": 0.026842928509909127,
+      "median_gain": 0.02567501123606211,
+      "min_gain": -0.08902004832417794,
+      "n": 24,
+      "tie_rate": 0.0,
+      "win_rate": 0.8333333333333334
+    },
+    "proposed_vs_reference": {
+      "bootstrap_95_ci": [
+        0.01615895517002831,
+        0.04004068373835492
+      ],
+      "loss_rate": 0.0,
+      "max_gain": 0.07567632880959219,
+      "mean_gain": 0.02822084414790425,
+      "median_gain": 0.017867261923833585,
+      "min_gain": 0.0,
+      "n": 24,
+      "tie_rate": 0.5,
+      "win_rate": 0.5
+    }
+  },
+  "cd_proposed_vs_qaoa_same_depth": {
+    "bootstrap_95_ci": [
+      0.04781101409805334,
+      0.08074751214730336
+    ],
+    "loss_rate": 0.125,
+    "max_gain": 0.1515390903756774,
+    "mean_gain": 0.06451310963847026,
+    "median_gain": 0.06017681357588586,
+    "min_gain": -0.028585302944426096,
+    "n": 24,
+    "tie_rate": 0.0,
+    "win_rate": 0.875
+  },
+  "confirmatory_pairs": 24,
+  "finite_shot_best_of_k": {
+    "paired": {
+      "bootstrap_95_ci": [
+        -0.006723889378926139,
+        -0.00025041930645194985
+      ],
+      "loss_rate": 0.20833333333333334,
+      "max_gain": 0.007504437871893345,
+      "mean_gain": -0.0030231394071323285,
+      "median_gain": 0.0,
+      "min_gain": -0.034482758620689655,
+      "n": 24,
+      "tie_rate": 0.75,
+      "win_rate": 0.041666666666666664
+    },
+    "shots": 256
+  },
+  "manifest_sha256": "e8da7ee44e0b737975145d302cc68274f1c6f0ef39c43b89dede9bbe9ad505e4",
+  "mean_normalized_ground_gap": {
+    "cd_proposed_mean": 0.274352703856274,
+    "n": 12,
+    "qaoa_best_budget_mean": 0.1910836115896624
+  },
+  "methods_vs_qaoa_best_budget": {
+    "CD BCH": {
+      "bootstrap_95_ci": [
+        -0.13669627555979366,
+        -0.10504998474954397
+      ],
+      "loss_rate": 1.0,
+      "max_gain": -0.05307467735073051,
+      "mean_gain": -0.12038403490277726,
+      "median_gain": -0.12121215623162031,
+      "min_gain": -0.2065350233158884,
+      "n": 24,
+      "tie_rate": 0.0,
+      "win_rate": 0.0
+    },
+    "CD alpha=0": {
+      "bootstrap_95_ci": [
+        -0.1764068698851073,
+        -0.14177430288873763
+      ],
+      "loss_rate": 1.0,
+      "max_gain": -0.09301388428566441,
+      "mean_gain": -0.1580542160313384,
+      "median_gain": -0.15104567486122464,
+      "min_gain": -0.27722578256690295,
+      "n": 24,
+      "tie_rate": 0.0,
+      "win_rate": 0.0
+    },
+    "CD proposed": {
+      "bootstrap_95_ci": [
+        -0.11741403622389424,
+        -0.07411262325883892
+      ],
+      "loss_rate": 1.0,
+      "max_gain": -0.03462850976037529,
+      "mean_gain": -0.09354110639286813,
+      "median_gain": -0.07203488442956843,
+      "min_gain": -0.24510526607273286,
+      "n": 24,
+      "tie_rate": 0.0,
+      "win_rate": 0.0
+    },
+    "CD reference": {
+      "bootstrap_95_ci": [
+        -0.147471798229421,
+        -0.09930738806831975
+      ],
+      "loss_rate": 1.0,
+      "max_gain": -0.03462850976037529,
+      "mean_gain": -0.12176195054077238,
+      "median_gain": -0.10819547502117316,
+      "min_gain": -0.25943650728553214,
+      "n": 24,
+      "tie_rate": 0.0,
+      "win_rate": 0.0
+    },
+    "QAOA CSV, budget": {
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "loss_rate": 0.0,
+      "max_gain": 0.0,
+      "mean_gain": 0.0,
+      "median_gain": 0.0,
+      "min_gain": 0.0,
+      "n": 24,
+      "tie_rate": 1.0,
+      "win_rate": 0.0
+    },
+    "QAOA best, budget": {
+      "bootstrap_95_ci": [
+        0.0,
+        0.0
+      ],
+      "loss_rate": 0.0,
+      "max_gain": 0.0,
+      "mean_gain": 0.0,
+      "median_gain": 0.0,
+      "min_gain": 0.0,
+      "n": 24,
+      "tie_rate": 1.0,
+      "win_rate": 0.0
+    },
+    "QAOA best, same p": {
+      "bootstrap_95_ci": [
+        -0.1764068698851073,
+        -0.14177430288873763
+      ],
+      "loss_rate": 1.0,
+      "max_gain": -0.09301388428566441,
+      "mean_gain": -0.1580542160313384,
+      "median_gain": -0.15104567486122464,
+      "min_gain": -0.27722578256690295,
+      "n": 24,
+      "tie_rate": 0.0,
+      "win_rate": 0.0
+    }
+  },
+  "offline_optimized_cd_vs_qaoa_same_depth": {
+    "all": {
+      "bootstrap_95_ci": [
+        0.06343684027315984,
+        0.10978950123142488
+      ],
+      "loss_rate": 0.1111111111111111,
+      "max_gain": 0.512462286085827,
+      "mean_gain": 0.08628896356358164,
+      "median_gain": 0.09116433505190422,
+      "min_gain": -0.40075558135615535,
+      "n": 162,
+      "tie_rate": 0.0,
+      "win_rate": 0.8888888888888888
+    },
+    "depth-1": {
+      "bootstrap_95_ci": [
+        0.0724197351827199,
+        0.14839503058985046
+      ],
+      "loss_rate": 0.12345679012345678,
+      "max_gain": 0.512462286085827,
+      "mean_gain": 0.11031360272290316,
+      "median_gain": 0.12505163121316165,
+      "min_gain": -0.3496523547486892,
+      "n": 81,
+      "tie_rate": 0.0,
+      "win_rate": 0.8765432098765432
+    },
+    "depth-2": {
+      "bootstrap_95_ci": [
+        0.0380516635455244,
+        0.0853547255746136
+      ],
+      "loss_rate": 0.09876543209876543,
+      "max_gain": 0.4356592592473663,
+      "mean_gain": 0.06226432440426006,
+      "median_gain": 0.06590988002544375,
+      "min_gain": -0.40075558135615535,
+      "n": 81,
+      "tie_rate": 0.0,
+      "win_rate": 0.9012345679012346
+    }
+  },
+  "optimization": {
+    "objective_evaluations": 305737,
+    "records": 1458,
+    "success_rate": 0.8984910836762688,
+    "successes": 1310
+  }
+}

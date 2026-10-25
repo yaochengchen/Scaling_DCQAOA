@@ -1,0 +1,206 @@
+[
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "CD proposed",
+    "cx": 162,
+    "depth": 183,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 0,
+    "p_actual": 1,
+    "p_cd": 1,
+    "size": 819
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "QAOA best budget",
+    "cx": 162,
+    "depth": 87,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 0,
+    "p_actual": 3,
+    "p_cd": 1,
+    "size": 567
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "CD proposed",
+    "cx": 162,
+    "depth": 140,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 1,
+    "p_actual": 1,
+    "p_cd": 1,
+    "size": 598
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "QAOA best budget",
+    "cx": 162,
+    "depth": 87,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 1,
+    "p_actual": 3,
+    "p_cd": 1,
+    "size": 567
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "CD proposed",
+    "cx": 108,
+    "depth": 89,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 3,
+    "p_actual": 1,
+    "p_cd": 1,
+    "size": 473
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "QAOA best budget",
+    "cx": 162,
+    "depth": 86,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 3,
+    "p_actual": 3,
+    "p_cd": 1,
+    "size": 552
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "CD proposed",
+    "cx": 324,
+    "depth": 357,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 0,
+    "p_actual": 2,
+    "p_cd": 2,
+    "size": 1584
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "QAOA best budget",
+    "cx": 324,
+    "depth": 147,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 0,
+    "p_actual": 6,
+    "p_cd": 2,
+    "size": 1080
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "CD proposed",
+    "cx": 324,
+    "depth": 270,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 1,
+    "p_actual": 2,
+    "p_cd": 2,
+    "size": 1142
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "QAOA best budget",
+    "cx": 324,
+    "depth": 147,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 1,
+    "p_actual": 6,
+    "p_cd": 2,
+    "size": 1080
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "CD proposed",
+    "cx": 216,
+    "depth": 173,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 3,
+    "p_actual": 2,
+    "p_cd": 2,
+    "size": 898
+  },
+  {
+    "basis": [
+      "cx",
+      "rz",
+      "sx",
+      "x"
+    ],
+    "circuit": "QAOA best budget",
+    "cx": 324,
+    "depth": 145,
+    "m": 27,
+    "n": 18,
+    "optimization_level": 3,
+    "p_actual": 6,
+    "p_cd": 2,
+    "size": 1050
+  }
+]

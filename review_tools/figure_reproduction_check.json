@@ -1,0 +1,14 @@
+{
+  "fig02_quality_depth_and_size_unified_v3": {
+    "rendered_pixels_identical": true
+  },
+  "fixed_vs_variational_unified_n12p2_optimizers_pennylane_starts20_eval500_v3": {
+    "rendered_pixels_identical": true
+  },
+  "fig03_family_heatmap_unified": {
+    "rendered_pixels_identical": true
+  },
+  "fig05_weight_distributions_unified_v2": {
+    "rendered_pixels_identical": true
+  }
+}

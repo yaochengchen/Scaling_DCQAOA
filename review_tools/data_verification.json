@@ -1,0 +1,12 @@
+{
+  "graph_depth_pairs": 32000,
+  "unique_graphs": 7000,
+  "max_paired_table_difference": 0.0,
+  "optimizer_runs": 720,
+  "optimizer_hits": {
+    "L-BFGS-B": 4,
+    "COBYLA": 7,
+    "Adam": 9
+  },
+  "quantum_simulations_run": 0
+}

@@ -1,0 +1,135 @@
+{
+  "alpha_degree_power": -0.5,
+  "alpha_multiplier": 1.0,
+  "depths": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "name": "cd-qaoa-unified-gpu-offline",
+  "no_target_instance_objective_calls": true,
+  "normalization": "gamma_unit=gamma*rms/f_D(D); beta=beta; alpha_unit=alpha*rms; if mean(gamma)>0 flip gamma,beta",
+  "provenance": {
+    "extra": {
+      "file": "data/extra_best_optima.csv.gz",
+      "sha256": "10f02081b15bc5e049befdc72a2f18d6c2949b7ba4b68436c4ca05f106737967"
+    },
+    "large": {
+      "file": "data/large_best_optima.csv.gz",
+      "sha256": "df41bbc1fdcef3fa0d6b241104f8fc04713426f4106f08507bc2b86e8598056c"
+    },
+    "small": {
+      "file": "data/small_best_optima.csv.gz",
+      "sha256": "f76e6ed099f47c33d9ddaf85c01d50d328b2b37b6c5e6aeebbeb2d925b93106e"
+    }
+  },
+  "reference_degree": 3.4545454545454546,
+  "status": "offline_pooled_training_template_not_tested_as_one_model",
+  "template_selection": "pooled Euclidean medoid; p<=4 small+large, p=6 small+extra",
+  "templates": {
+    "1": {
+      "alpha_unit": [
+        -0.15548598689841647
+      ],
+      "beta": [
+        0.47977953342407414
+      ],
+      "gamma_unit": [
+        -0.4843903082956047
+      ],
+      "medoid_training_id": "train-n20-er3-lognormal-001"
+    },
+    "2": {
+      "alpha_unit": [
+        -0.1200255745655971,
+        -0.025438229216823774
+      ],
+      "beta": [
+        0.6135485151877298,
+        0.20640819505269356
+      ],
+      "gamma_unit": [
+        -0.40852793167186546,
+        -0.8676245822864975
+      ],
+      "medoid_training_id": "train-n20-community-lognormal-012"
+    },
+    "3": {
+      "alpha_unit": [
+        -0.10517107817474457,
+        -0.0591076665163743,
+        -0.017934801290751298
+      ],
+      "beta": [
+        0.7194970002280041,
+        0.33189262718344054,
+        0.1628073935081092
+      ],
+      "gamma_unit": [
+        -0.3420685826129887,
+        -0.8394885559728099,
+        -0.6803210329810107
+      ],
+      "medoid_training_id": "train-n20-regular4-bimodal-001"
+    },
+    "4": {
+      "alpha_unit": [
+        -0.10127227780771246,
+        -0.04853074990917157,
+        -0.04044404329179491,
+        -0.009732406112898337
+      ],
+      "beta": [
+        0.7549222246790204,
+        0.42869812658044987,
+        0.25399068365985855,
+        0.14099333053524163
+      ],
+      "gamma_unit": [
+        -0.31092158526085073,
+        -0.7850765051256429,
+        -0.72824297831692,
+        -0.6494803692244762
+      ],
+      "medoid_training_id": "train-n16-regular4-bimodal-001"
+    },
+    "6": {
+      "alpha_unit": [
+        -0.08161109495719131,
+        -0.05433726895235597,
+        -0.05084189939075748,
+        -0.05004393984673198,
+        -0.03695190256637029,
+        -0.005272500962459822
+      ],
+      "beta": [
+        0.7887661479659194,
+        0.48993342690545527,
+        0.3485450966139594,
+        0.2628932661498435,
+        0.1799818313908855,
+        0.1088042620982466
+      ],
+      "gamma_unit": [
+        -0.25295292923684864,
+        -0.6893326561849475,
+        -0.6449734507044169,
+        -0.6522607346124547,
+        -0.6646844198655842,
+        -0.612785197357372
+      ],
+      "medoid_training_id": "train-n18-regular4-lognormal-009"
+    }
+  },
+  "training_counts": {
+    "1": 7000,
+    "2": 7000,
+    "3": 7000,
+    "4": 7000,
+    "6": 5000
+  },
+  "unique_reference_training_graphs": 7000,
+  "version": 1
+}

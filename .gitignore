@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Extracted data archives (the .zip files are tracked)
+results/unified_table_heldout/
+results/unified_variational_n12p2_optimizer_compare_pennylane_starts20_eval500/runs/
+
+# Regenerated outputs
+review_generated/
+paper/

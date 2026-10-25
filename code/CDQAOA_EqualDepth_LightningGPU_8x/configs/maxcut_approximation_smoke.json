@@ -1,0 +1,17 @@
+{
+  "version": "maxcut-approx-smoke-v1",
+  "seed": 20261012,
+  "n_values": [8],
+  "layer_n": 8,
+  "depths": [1],
+  "samples_per_cell": 1,
+  "structure_cells": [
+    ["regular3", "unit"]
+  ],
+  "weight_cells": [
+    ["regular3", "unit"]
+  ],
+  "methods": ["qaoa_csv", "cd_proposed"],
+  "frozen_model": "assets/CD_TRANSFER_V1_FROZEN_MODEL.json",
+  "bootstrap_resamples": 200
+}

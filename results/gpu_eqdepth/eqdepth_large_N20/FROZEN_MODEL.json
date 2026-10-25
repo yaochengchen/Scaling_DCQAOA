@@ -1,0 +1,415 @@
+{
+  "alpha_degree_power": -0.5,
+  "alpha_grid_val": [
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.5290696346842054
+    },
+    {
+      "alpha_degree_power": 0.0,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.5134637328542078
+    },
+    {
+      "alpha_degree_power": 0.5,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.48591869651138053
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.4853210405395536
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.48369540720716636
+    },
+    {
+      "alpha_degree_power": 0.0,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.48058505877426855
+    },
+    {
+      "alpha_degree_power": 0.5,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.4733517039193035
+    },
+    {
+      "alpha_degree_power": 0.0,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.4725856365898235
+    },
+    {
+      "alpha_degree_power": 1.0,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.4596232811065416
+    },
+    {
+      "alpha_degree_power": 1.0,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.4575012601675556
+    },
+    {
+      "alpha_degree_power": 0.5,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.4439013305385219
+    },
+    {
+      "alpha_degree_power": 1.0,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.41583217071310097
+    }
+  ],
+  "alpha_multiplier": 1.0,
+  "bch_c": 0.5,
+  "bch_val": [
+    {
+      "c": 0.5,
+      "validation_normalized_energy": -0.4994812001263654
+    },
+    {
+      "c": 0.0,
+      "validation_normalized_energy": -0.4743535237929637
+    },
+    {
+      "c": 1.0,
+      "validation_normalized_energy": -0.43642842642199187
+    },
+    {
+      "c": -0.5,
+      "validation_normalized_energy": -0.40208831299453984
+    },
+    {
+      "c": -1.0,
+      "validation_normalized_energy": -0.34179787261566374
+    },
+    {
+      "c": -2.0,
+      "validation_normalized_energy": -0.23467842521418045
+    },
+    {
+      "c": 2.0,
+      "validation_normalized_energy": -0.20448746358126138
+    }
+  ],
+  "comparison": "same_depth",
+  "csv_sign": -1,
+  "csv_sign_selection": {
+    "-1": -0.4743535237929637,
+    "1": 0.5518748607122472
+  },
+  "depths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "manifest_sha256": "437052fd3cea261674787b57d028e1d3379126a60166b6a1c60282dbd9f123e4",
+  "no_target_instance_objective_calls": true,
+  "protocol": "templates from train optima; hyper-parameters from validation; frozen before test",
+  "qaoa_fixed_best_by_depth": {
+    "1": "qaoa_trained",
+    "2": "qaoa_trained",
+    "3": "qaoa_trained",
+    "4": "qaoa_csv"
+  },
+  "qaoa_validation_scores_by_depth": {
+    "1": {
+      "qaoa_csv": -0.34251556708992387,
+      "qaoa_csv_rms": -0.19092584631499293,
+      "qaoa_trained": -0.3460589960811933
+    },
+    "2": {
+      "qaoa_csv": -0.46106360054897094,
+      "qaoa_csv_rms": -0.28862103394739536,
+      "qaoa_trained": -0.462763628360076
+    },
+    "3": {
+      "qaoa_csv": -0.5250770182951165,
+      "qaoa_csv_rms": -0.3234014846682347,
+      "qaoa_trained": -0.5259572710957714
+    },
+    "4": {
+      "qaoa_csv": -0.5687579092378432,
+      "qaoa_csv_rms": -0.35500873342591954,
+      "qaoa_trained": -0.568624006239195
+    }
+  },
+  "templates": {
+    "1": {
+      "cd": {
+        "alpha_unit": [
+          -0.1522880612994689
+        ],
+        "beta": [
+          0.488384887666658
+        ],
+        "gamma_unit": [
+          -0.47992720370387715
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          -0.1438924629614145
+        ],
+        "median_beta": [
+          0.48662299263854714
+        ],
+        "median_gamma_unit": [
+          -0.4851081764494952
+        ],
+        "medoid_record_id": "train-n20-regular4-lognormal-007",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      },
+      "qaoa": {
+        "alpha_unit": [
+          0.0
+        ],
+        "beta": [
+          0.3735576374202156
+        ],
+        "gamma_unit": [
+          -0.4719954140584339
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          0.0
+        ],
+        "median_beta": [
+          0.3791847355614959
+        ],
+        "median_gamma_unit": [
+          -0.47218414652423213
+        ],
+        "medoid_record_id": "train-n18-regular4-lognormal-007",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      }
+    },
+    "2": {
+      "cd": {
+        "alpha_unit": [
+          -0.11835271057676165,
+          -0.028048627326467894
+        ],
+        "beta": [
+          0.6099083701020982,
+          0.21380611239873332
+        ],
+        "gamma_unit": [
+          -0.40561973208214225,
+          -0.841616511503429
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          -0.11754968067505303,
+          -0.027409280672265952
+        ],
+        "median_beta": [
+          0.6182343520515181,
+          0.21339979987772156
+        ],
+        "median_gamma_unit": [
+          -0.39731561874456944,
+          -0.8582598717219487
+        ],
+        "medoid_record_id": "train-n20-er3-unit-003",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      },
+      "qaoa": {
+        "alpha_unit": [
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.4766873447229065,
+          0.2637696854763218
+        ],
+        "gamma_unit": [
+          -0.36649038724481225,
+          -0.6697311229596465
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          0.0,
+          0.0
+        ],
+        "median_beta": [
+          0.4800809400479149,
+          0.2652750604675534
+        ],
+        "median_gamma_unit": [
+          -0.3616323601960295,
+          -0.6735277400387467
+        ],
+        "medoid_record_id": "train-n22-regular6-bimodal-014",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      }
+    },
+    "3": {
+      "cd": {
+        "alpha_unit": [
+          -0.10517107817474457,
+          -0.0591076665163743,
+          -0.017934801290751298
+        ],
+        "beta": [
+          0.7194970002280041,
+          0.33189262718344054,
+          0.1628073935081092
+        ],
+        "gamma_unit": [
+          -0.3420685826129887,
+          -0.8394885559728099,
+          -0.6803210329810107
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          -0.10173889096382124,
+          -0.06183523598238955,
+          -0.017240915142394727
+        ],
+        "median_beta": [
+          0.7074268871789422,
+          0.33437451528509055,
+          0.1719244751997924
+        ],
+        "median_gamma_unit": [
+          -0.3379807390362556,
+          -0.8257367598348277,
+          -0.6717884701756464
+        ],
+        "medoid_record_id": "train-n20-regular4-bimodal-001",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      },
+      "qaoa": {
+        "alpha_unit": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.5231418464778071,
+          0.3712642760278101,
+          0.20670119020270883
+        ],
+        "gamma_unit": [
+          -0.3194483995341505,
+          -0.5874423854204386,
+          -0.7050683981389083
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_beta": [
+          0.5360447441850019,
+          0.3630538345438309,
+          0.2044901068986744
+        ],
+        "median_gamma_unit": [
+          -0.31458225378596033,
+          -0.5871180284192925,
+          -0.7117472136033329
+        ],
+        "medoid_record_id": "train-n18-regular5-bimodal-007",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      }
+    },
+    "4": {
+      "cd": {
+        "alpha_unit": [
+          -0.08474494094841731,
+          -0.046264105719979735,
+          -0.03597957141219097,
+          -0.008989322297357065
+        ],
+        "beta": [
+          0.7590977706367071,
+          0.4262830292327348,
+          0.24675637530528038,
+          0.14551545918318706
+        ],
+        "gamma_unit": [
+          -0.3009566285286151,
+          -0.7634606298463594,
+          -0.7104844532957387,
+          -0.6324278092384049
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          -0.09026861756604153,
+          -0.06338608177777076,
+          -0.05091235347271564,
+          -0.01207951290887541
+        ],
+        "median_beta": [
+          0.7537088500045124,
+          0.4207138932321784,
+          0.24527094620683548,
+          0.14967062505283113
+        ],
+        "median_gamma_unit": [
+          -0.2963852814879795,
+          -0.7587804559527005,
+          -0.7115820784558021,
+          -0.6327002868536121
+        ],
+        "medoid_record_id": "train-n22-regular5-lognormal-018",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      },
+      "qaoa": {
+        "alpha_unit": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.5533881346408256,
+          0.4209397636845039,
+          0.3018133280739531,
+          0.1707255042775239
+        ],
+        "gamma_unit": [
+          -0.28458481181820133,
+          -0.5428952563075286,
+          -0.6293961776061477,
+          -0.722681247385536
+        ],
+        "instances": 3000,
+        "median_alpha_unit": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "median_beta": [
+          0.5670950166730385,
+          0.4248733432600122,
+          0.302807646727542,
+          0.16983761907098546
+        ],
+        "median_gamma_unit": [
+          -0.2841847345537404,
+          -0.539726037108309,
+          -0.6358633696304803,
+          -0.7191410829191349
+        ],
+        "medoid_record_id": "train-n20-regular4-bimodal-001",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms; branch aligned so mean(gamma)<0",
+        "reference_degree": 4.0
+      }
+    }
+  },
+  "version": "eqdepth-0.3.0"
+}

@@ -1,0 +1,11 @@
+{
+ "seed": 20261011,
+ "depths": [1,2,4],
+ "optimization": {"restarts": 3, "maxiter": 55},
+ "shots": 256,
+ "datasets": {
+   "train": {"n": [8,10,12], "families": ["ring", "regular3", "er3"], "weights": ["unit", "uniform", "signed_normal"], "samples_per_cell": 3},
+   "val": {"n": [8,10,12], "families": ["ring", "regular3", "er3"], "weights": ["unit", "uniform", "signed_normal"], "samples_per_cell": 2},
+   "test": {"n": [12,14,16], "families": ["regular3", "er3", "er6"], "weights": ["bimodal", "lognormal", "heavy_tail"], "samples_per_cell": 4}
+ }
+}

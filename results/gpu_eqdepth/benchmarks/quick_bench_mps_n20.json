@@ -1,0 +1,25 @@
+{
+  "measurements": [
+    {
+      "n": 20,
+      "processes_per_gpu": 1,
+      "calls_per_second_all_gpus": 60.99559394892639
+    },
+    {
+      "n": 20,
+      "processes_per_gpu": 2,
+      "calls_per_second_all_gpus": 106.55085239356855
+    },
+    {
+      "n": 20,
+      "processes_per_gpu": 4,
+      "calls_per_second_all_gpus": 134.9740288144298
+    }
+  ],
+  "best_processes_per_gpu": {
+    "20": 4
+  },
+  "options": "--slots-per-gpu 4 --task-weights 20:1",
+  "p": 3,
+  "seconds": 20
+}

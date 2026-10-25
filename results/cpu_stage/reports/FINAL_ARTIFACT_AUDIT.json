@@ -1,0 +1,33 @@
+{
+  "figures": [
+    "paper\\figures\\fig01_training_free_protocol.png",
+    "paper\\figures\\fig02_parameter_concentration.png",
+    "paper\\figures\\fig03_weight_scale_identity.png",
+    "paper\\figures\\fig04_fixed_method_comparison.png",
+    "paper\\figures\\fig05_equal_budget_subgroups.png",
+    "paper\\figures\\fig06_same_depth_vs_budget.png"
+  ],
+  "main_counts": {
+    "heldout_pairs": 162,
+    "optimization_records": 1458,
+    "test": 81,
+    "train": 81,
+    "validation": 54
+  },
+  "sha256": {
+    "paper\\manuscript_draft.md": "580c296e9bf7aa1e290d6a9e2e567e2c73bd28389532ded8358b95ceb809892b",
+    "reports\\FINAL_RESEARCH_REPORT.md": "b467358b77d95d88322a13afaefeea9b9b10f7fe8eb4c235bd989c60f876a46f",
+    "results\\codex_cpu10h_confirmatory_locked\\FROZEN_MODEL.json": "cf9a38dd21d7c159cc535b51677082cb178ed7da4844ca4fbffd2d6fed25d00c",
+    "results\\codex_cpu10h_confirmatory_locked\\analysis\\final_statistics.json": "40e3676d4d04c39bc1cbc91afa82f72c4f343736dd354a00ca92a2f75b2ee5ed",
+    "results\\codex_cpu10h_confirmatory_locked\\heldout_results.json": "7f0a6046d8261d87fbada3cbc47949c4ab1ee0bd979fea48a7260a9992255627",
+    "results\\codex_cpu10h_confirmatory_locked\\manifest.json": "e8f6928e64d7bd26eb9c16aed9a6180b6146e7ca29b6dd0346cfd1162907fb4a",
+    "results\\codex_cpu10h_confirmatory_locked\\offline_optima.json": "32f1abb54578b7b4b7b0f66c323509dfb14fc391b2b7131f0bed6ea69cfe1ac6"
+  },
+  "status": "PASS",
+  "tables": [
+    "paper\\tables\\table1_dataset.csv",
+    "paper\\tables\\table2_method_results.csv",
+    "paper\\tables\\table3_fixed_angles.csv",
+    "paper\\tables\\table4_native_gate_counts.csv"
+  ]
+}

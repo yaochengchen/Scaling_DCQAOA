@@ -1,0 +1,66 @@
+{
+  "config": {
+    "bootstrap_resamples": 5000,
+    "depths": [
+      1,
+      2
+    ],
+    "frozen_model": "assets/CD_TRANSFER_V1_FROZEN_MODEL.json",
+    "layer_n": 12,
+    "methods": [
+      "qaoa_csv",
+      "cd_proposed"
+    ],
+    "n_values": [
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "samples_per_cell": 10,
+    "seed": 20261012,
+    "structure_cells": [
+      [
+        "tree",
+        "unit"
+      ],
+      [
+        "regular3",
+        "unit"
+      ],
+      [
+        "er3",
+        "unit"
+      ],
+      [
+        "er6",
+        "unit"
+      ]
+    ],
+    "version": "maxcut-approx-current-v1",
+    "weight_cells": [
+      [
+        "regular3",
+        "unit"
+      ],
+      [
+        "regular3",
+        "uniform"
+      ],
+      [
+        "regular3",
+        "bimodal"
+      ],
+      [
+        "regular3",
+        "lognormal"
+      ]
+    ]
+  },
+  "config_sha256": "f1313c6dcdfcfbef274fe55e0b6c1d1aae3253521c08339a1ba21fb4a69046b6",
+  "config_text": "{\n  \"version\": \"maxcut-approx-current-v1\",\n  \"seed\": 20261012,\n  \"n_values\": [8, 10, 12, 14, 16],\n  \"layer_n\": 12,\n  \"depths\": [1, 2],\n  \"samples_per_cell\": 10,\n  \"structure_cells\": [\n    [\"tree\", \"unit\"],\n    [\"regular3\", \"unit\"],\n    [\"er3\", \"unit\"],\n    [\"er6\", \"unit\"]\n  ],\n  \"weight_cells\": [\n    [\"regular3\", \"unit\"],\n    [\"regular3\", \"uniform\"],\n    [\"regular3\", \"bimodal\"],\n    [\"regular3\", \"lognormal\"]\n  ],\n  \"methods\": [\"qaoa_csv\", \"cd_proposed\"],\n  \"frozen_model\": \"assets/CD_TRANSFER_V1_FROZEN_MODEL.json\",\n  \"bootstrap_resamples\": 5000\n}\n",
+  "expected_records": 350,
+  "frozen_model_sha256": "cf9a38dd21d7c159cc535b51677082cb178ed7da4844ca4fbffd2d6fed25d00c",
+  "qaoa_source_csv_sha256": "9e3e9c3dcc0b4ee9ce5a39319ae567fa1161ed79a0606355c5b9b6e3f98f15a6"
+}

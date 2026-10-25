@@ -1,0 +1,265 @@
+{
+  "alpha_degree_power": -0.5,
+  "alpha_grid_val": [
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.5899465444577471
+    },
+    {
+      "alpha_degree_power": 0.0,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.5870972564733126
+    },
+    {
+      "alpha_degree_power": 0.5,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.5807780494597954
+    },
+    {
+      "alpha_degree_power": 1.0,
+      "alpha_multiplier": 1.0,
+      "validation_normalized_energy": -0.5725355780208369
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.5585864657946137
+    },
+    {
+      "alpha_degree_power": 0.0,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.5540232560635868
+    },
+    {
+      "alpha_degree_power": 0.5,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.5498460787152429
+    },
+    {
+      "alpha_degree_power": 1.0,
+      "alpha_multiplier": 0.5,
+      "validation_normalized_energy": -0.5460938354996733
+    },
+    {
+      "alpha_degree_power": 0.0,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.5389037418961291
+    },
+    {
+      "alpha_degree_power": 0.5,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.537549860276257
+    },
+    {
+      "alpha_degree_power": 1.0,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.530089410222149
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.5,
+      "validation_normalized_energy": -0.5300669441599614
+    }
+  ],
+  "alpha_multiplier": 1.0,
+  "bch_c": 0.5,
+  "bch_val": [
+    {
+      "c": 0.5,
+      "validation_normalized_energy": -0.5276257228097478
+    },
+    {
+      "c": 1.0,
+      "validation_normalized_energy": -0.49860424698904837
+    },
+    {
+      "c": 0.0,
+      "validation_normalized_energy": -0.4887139899647963
+    },
+    {
+      "c": -0.5,
+      "validation_normalized_energy": -0.423210397127005
+    },
+    {
+      "c": -1.0,
+      "validation_normalized_energy": -0.37029681564776157
+    },
+    {
+      "c": 2.0,
+      "validation_normalized_energy": -0.2922353521035504
+    },
+    {
+      "c": -2.0,
+      "validation_normalized_energy": -0.2866412483226512
+    }
+  ],
+  "csv_sign": -1,
+  "csv_sign_selection": {
+    "-1": -0.5811896055050871,
+    "1": 0.6439962586134398
+  },
+  "depths": [
+    1,
+    2
+  ],
+  "manifest_sha256": "e8da7ee44e0b737975145d302cc68274f1c6f0ef39c43b89dede9bbe9ad505e4",
+  "no_target_instance_objective_calls": true,
+  "protocol": "frozen after validation, before evaluating held-out test",
+  "qaoa_fixed_best_by_depth": {
+    "1": "qaoa_csv",
+    "2": "qaoa_csv",
+    "3": "qaoa_csv",
+    "6": "qaoa_csv"
+  },
+  "qaoa_validation_scores_by_depth": {
+    "1": {
+      "qaoa_csv": -0.42307027025665317,
+      "qaoa_csv_rms": -0.319967901727676,
+      "qaoa_trained": -0.42240434441253805
+    },
+    "2": {
+      "qaoa_csv": -0.5543577096729396,
+      "qaoa_csv_rms": -0.44203802972892015,
+      "qaoa_trained": -0.5531444085545364
+    },
+    "3": {
+      "qaoa_csv": -0.6252941685703339,
+      "qaoa_csv_rms": -0.5159003037512361,
+      "qaoa_trained": -0.6198869306697451
+    },
+    "6": {
+      "qaoa_csv": -0.7220362735204219,
+      "qaoa_csv_rms": -0.630296592930072,
+      "qaoa_trained": -0.7172615983506284
+    }
+  },
+  "templates": {
+    "1": {
+      "cd": {
+        "alpha_unit": [
+          -0.17673179131513422
+        ],
+        "beta": [
+          0.46094955918648306
+        ],
+        "gamma_unit": [
+          -0.4956227054284411
+        ],
+        "instances": 81,
+        "medoid_record_id": "train-00034",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms",
+        "reference_degree": 3.0
+      },
+      "qaoa": {
+        "alpha_unit": [
+          0.0
+        ],
+        "beta": [
+          0.3642612890208946
+        ],
+        "gamma_unit": [
+          -0.472548621783316
+        ],
+        "instances": 81,
+        "medoid_record_id": "train-00036",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms",
+        "reference_degree": 3.0
+      }
+    },
+    "2": {
+      "cd": {
+        "alpha_unit": [
+          -0.14233536881266412,
+          -0.035571420906302796
+        ],
+        "beta": [
+          0.5977566202607629,
+          0.217756556535028
+        ],
+        "gamma_unit": [
+          -0.40703768888180336,
+          -0.8494824053048085
+        ],
+        "instances": 81,
+        "medoid_record_id": "train-00044",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms",
+        "reference_degree": 3.0
+      },
+      "qaoa": {
+        "alpha_unit": [
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.4951233469657485,
+          0.2721856049128398
+        ],
+        "gamma_unit": [
+          -0.40423452135652843,
+          -0.7424466414694119
+        ],
+        "instances": 81,
+        "medoid_record_id": "train-00030",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms",
+        "reference_degree": 3.0
+      }
+    },
+    "3": {
+      "qaoa": {
+        "alpha_unit": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.5599516468969505,
+          0.3914439440551236,
+          0.21816414801928768
+        ],
+        "gamma_unit": [
+          -0.34904116962928994,
+          -0.6792572741952808,
+          -0.7901476528009831
+        ],
+        "instances": 81,
+        "medoid_record_id": "train-00057",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms",
+        "reference_degree": 3.0
+      }
+    },
+    "6": {
+      "qaoa": {
+        "alpha_unit": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "beta": [
+          0.6204074724513684,
+          0.5230833415740276,
+          0.44368162387039284,
+          0.3649171171432488,
+          0.28282968774049433,
+          0.1364161601760058
+        ],
+        "gamma_unit": [
+          -0.2539802063984198,
+          -0.5219689957740682,
+          -0.6105044877368693,
+          -0.6755832688051155,
+          -0.7656210646664259,
+          -0.8198115395677111
+        ],
+        "instances": 81,
+        "medoid_record_id": "train-00032",
+        "normalization": "gamma_unit=gamma*rms/degree_factor, alpha_unit=alpha*rms",
+        "reference_degree": 3.0
+      }
+    }
+  },
+  "version": "0.1.0"
+}

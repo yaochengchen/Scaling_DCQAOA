@@ -1,0 +1,246 @@
+{
+  "_reference": {
+    "degree_factor_local_exponent_at_D=3": -0.5744679864619924,
+    "note": "current V1 law predicts gamma*rms exponent = d log degree_factor / d log D (about -0.5 at large D)"
+  },
+  "cd|p1|alpha_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.7831694814842516,
+    "prefactor": 0.42131942399713784
+  },
+  "cd|p1|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.47660487853352457,
+    "prefactor": 0.5218173142611027
+  },
+  "cd|p2|alpha_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.7184825505510295,
+    "prefactor": 0.3150424059767226
+  },
+  "cd|p2|alpha_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6789535480110507,
+    "prefactor": 0.10175258983547752
+  },
+  "cd|p2|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5104819995710065,
+    "prefactor": 0.4439305460134696
+  },
+  "cd|p2|gamma_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.38630888443499745,
+    "prefactor": 0.730035009295085
+  },
+  "cd|p3|alpha_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6497596110206324,
+    "prefactor": 0.25383978049719774
+  },
+  "cd|p3|alpha_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.9093362660281414,
+    "prefactor": 0.2289787973407008
+  },
+  "cd|p3|alpha_rms|layer3": {
+    "count": 6988,
+    "exponent_vs_degree": -0.9647797733192371,
+    "prefactor": 0.08087660445891413
+  },
+  "cd|p3|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5393822094308118,
+    "prefactor": 0.39831405000639836
+  },
+  "cd|p3|gamma_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5447495837966686,
+    "prefactor": 0.9398192409252176
+  },
+  "cd|p3|gamma_rms|layer3": {
+    "count": 6988,
+    "exponent_vs_degree": -0.38176339059110803,
+    "prefactor": 0.5888912290904069
+  },
+  "cd|p4|alpha_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6284944054686622,
+    "prefactor": 0.22016920734127857
+  },
+  "cd|p4|alpha_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.9249130861884074,
+    "prefactor": 0.2260102974976404
+  },
+  "cd|p4|alpha_rms|layer3": {
+    "count": 6988,
+    "exponent_vs_degree": -1.0060193231717673,
+    "prefactor": 0.2080492318345133
+  },
+  "cd|p4|alpha_rms|layer4": {
+    "count": 6988,
+    "exponent_vs_degree": -1.0463740525853626,
+    "prefactor": 0.0634489802563503
+  },
+  "cd|p4|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5130091040152887,
+    "prefactor": 0.3337313240443549
+  },
+  "cd|p4|gamma_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5890998610658534,
+    "prefactor": 0.923883771674991
+  },
+  "cd|p4|gamma_rms|layer3": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5730765446850007,
+    "prefactor": 0.8325995795851354
+  },
+  "cd|p4|gamma_rms|layer4": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5003202262458366,
+    "prefactor": 0.6546361229679681
+  },
+  "cd|p6|alpha_rms|layer1": {
+    "count": 4960,
+    "exponent_vs_degree": -0.4915093574096752,
+    "prefactor": 0.1529624317762342
+  },
+  "cd|p6|alpha_rms|layer2": {
+    "count": 4962,
+    "exponent_vs_degree": -0.8840233031531696,
+    "prefactor": 0.18535552601877212
+  },
+  "cd|p6|alpha_rms|layer3": {
+    "count": 4961,
+    "exponent_vs_degree": -1.016212308691673,
+    "prefactor": 0.22214010135524195
+  },
+  "cd|p6|alpha_rms|layer4": {
+    "count": 4961,
+    "exponent_vs_degree": -1.1255742501729826,
+    "prefactor": 0.24078451496082928
+  },
+  "cd|p6|alpha_rms|layer5": {
+    "count": 4958,
+    "exponent_vs_degree": -1.191560351169651,
+    "prefactor": 0.19942347737176766
+  },
+  "cd|p6|alpha_rms|layer6": {
+    "count": 4961,
+    "exponent_vs_degree": -1.3499601702890005,
+    "prefactor": 0.04592049732606562
+  },
+  "cd|p6|gamma_rms|layer1": {
+    "count": 4988,
+    "exponent_vs_degree": -0.5150257474979838,
+    "prefactor": 0.28418182922528323
+  },
+  "cd|p6|gamma_rms|layer2": {
+    "count": 4988,
+    "exponent_vs_degree": -0.5665663027932005,
+    "prefactor": 0.7994671407225897
+  },
+  "cd|p6|gamma_rms|layer3": {
+    "count": 4988,
+    "exponent_vs_degree": -0.6412511495570008,
+    "prefactor": 0.8435205616628819
+  },
+  "cd|p6|gamma_rms|layer4": {
+    "count": 4988,
+    "exponent_vs_degree": -0.6255947884640228,
+    "prefactor": 0.7965288655029198
+  },
+  "cd|p6|gamma_rms|layer5": {
+    "count": 4988,
+    "exponent_vs_degree": -0.5924304564933514,
+    "prefactor": 0.8019042303352737
+  },
+  "cd|p6|gamma_rms|layer6": {
+    "count": 4988,
+    "exponent_vs_degree": -0.48579267586188735,
+    "prefactor": 0.6602623146544525
+  },
+  "qaoa|p1|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5693299898640479,
+    "prefactor": 0.5891325100643409
+  },
+  "qaoa|p2|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6543525296610281,
+    "prefactor": 0.5128851106300872
+  },
+  "qaoa|p2|gamma_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6058672733408388,
+    "prefactor": 0.8736591856451306
+  },
+  "qaoa|p3|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.7217049059474828,
+    "prefactor": 0.48492631752204207
+  },
+  "qaoa|p3|gamma_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6911408512464327,
+    "prefactor": 0.8655450181033457
+  },
+  "qaoa|p3|gamma_rms|layer3": {
+    "count": 6988,
+    "exponent_vs_degree": -0.5810797790979022,
+    "prefactor": 0.8696587767392693
+  },
+  "qaoa|p4|gamma_rms|layer1": {
+    "count": 6988,
+    "exponent_vs_degree": -0.7252309645753504,
+    "prefactor": 0.43394749929168924
+  },
+  "qaoa|p4|gamma_rms|layer2": {
+    "count": 6988,
+    "exponent_vs_degree": -0.7189840896224635,
+    "prefactor": 0.8197556386621774
+  },
+  "qaoa|p4|gamma_rms|layer3": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6627867115926533,
+    "prefactor": 0.8757288123615988
+  },
+  "qaoa|p4|gamma_rms|layer4": {
+    "count": 6988,
+    "exponent_vs_degree": -0.6168205246465526,
+    "prefactor": 0.9154407671984178
+  },
+  "qaoa|p6|gamma_rms|layer1": {
+    "count": 4988,
+    "exponent_vs_degree": -0.7601703962253589,
+    "prefactor": 0.38976839056663837
+  },
+  "qaoa|p6|gamma_rms|layer2": {
+    "count": 4988,
+    "exponent_vs_degree": -0.7350391457914193,
+    "prefactor": 0.7430446701038173
+  },
+  "qaoa|p6|gamma_rms|layer3": {
+    "count": 4988,
+    "exponent_vs_degree": -0.7201196750286534,
+    "prefactor": 0.8293964257731694
+  },
+  "qaoa|p6|gamma_rms|layer4": {
+    "count": 4988,
+    "exponent_vs_degree": -0.710104000172242,
+    "prefactor": 0.8888167310800016
+  },
+  "qaoa|p6|gamma_rms|layer5": {
+    "count": 4988,
+    "exponent_vs_degree": -0.6728095743654703,
+    "prefactor": 0.9368853180779171
+  },
+  "qaoa|p6|gamma_rms|layer6": {
+    "count": 4988,
+    "exponent_vs_degree": -0.6087270615037178,
+    "prefactor": 0.9374202264873911
+  }
+}

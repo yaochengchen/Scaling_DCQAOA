@@ -1,0 +1,67 @@
+{
+  "1": {
+    "all_restart_success_rate": 1.0,
+    "alpha_unit_iqr": [
+      0.12083534044614391
+    ],
+    "alpha_unit_median": [
+      -0.18370289709258542
+    ],
+    "alpha_unit_std": [
+      2.2956935642014846
+    ],
+    "beta_median": [
+      0.4620596331496524
+    ],
+    "beta_std": [
+      1.303622650795955
+    ],
+    "gamma_unit_median": [
+      -0.5078989363368132
+    ],
+    "gamma_unit_std": [
+      4.376855572699042
+    ],
+    "interpretation": "Best restart per instance; normalized but not symmetry/periodicity aligned.",
+    "median_distance_to_medoid": 0.10542867670941698,
+    "medoid_record_id": "train-00034",
+    "n_instances": 81,
+    "n_restarts": 243
+  },
+  "2": {
+    "all_restart_success_rate": 0.9670781893004116,
+    "alpha_unit_iqr": [
+      0.07972467403854633,
+      0.06717632130461428
+    ],
+    "alpha_unit_median": [
+      -0.1505028778273393,
+      -0.03856780143007474
+    ],
+    "alpha_unit_std": [
+      1.6677048826246865,
+      2.1112940645711324
+    ],
+    "beta_median": [
+      0.6115003400920395,
+      0.20541402236524062
+    ],
+    "beta_std": [
+      0.9905858921260133,
+      1.0642884509390524
+    ],
+    "gamma_unit_median": [
+      -0.40703768888180336,
+      -0.8720926857673404
+    ],
+    "gamma_unit_std": [
+      3.8712867119710195,
+      3.9952499097135457
+    ],
+    "interpretation": "Best restart per instance; normalized but not symmetry/periodicity aligned.",
+    "median_distance_to_medoid": 0.3174562791922162,
+    "medoid_record_id": "train-00044",
+    "n_instances": 81,
+    "n_restarts": 243
+  }
+}

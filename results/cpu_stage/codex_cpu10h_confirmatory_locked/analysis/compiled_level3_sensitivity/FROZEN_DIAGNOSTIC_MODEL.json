@@ -1,0 +1,28 @@
+{
+  "optimization_level": 3,
+  "parent_manifest_sha256": "b9addf9e543d3ca0ea491dc416a3c284cdc219d3f2da58fe628842b389bf2fd0",
+  "qaoa_depth_rule": "p_qaoa=2*p_cd",
+  "qaoa_method_by_cd_depth": {
+    "1": "qaoa_csv",
+    "2": "qaoa_csv"
+  },
+  "qiskit_basis": [
+    "cx",
+    "rz",
+    "sx",
+    "x"
+  ],
+  "selection_data": "validation only",
+  "status": "exploratory post-confirmatory resource sensitivity",
+  "validation_normalized_energy": {
+    "1": {
+      "qaoa_csv": -0.5543577096729396,
+      "qaoa_csv_rms": -0.44203802972892015,
+      "qaoa_trained": -0.5531444085545364
+    },
+    "2": {
+      "qaoa_csv": -0.6696446102723087,
+      "qaoa_csv_rms": -0.5649729910142675
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "measurements": [
+    {
+      "n": 18,
+      "processes_per_gpu": 1,
+      "calls_per_second_all_gpus": 92.93636638370768
+    },
+    {
+      "n": 18,
+      "processes_per_gpu": 2,
+      "calls_per_second_all_gpus": 26.985550273857715
+    },
+    {
+      "n": 18,
+      "processes_per_gpu": 4,
+      "calls_per_second_all_gpus": 24.112467781697955
+    },
+    {
+      "n": 22,
+      "processes_per_gpu": 1,
+      "calls_per_second_all_gpus": 20.07534994075293
+    },
+    {
+      "n": 22,
+      "processes_per_gpu": 2,
+      "calls_per_second_all_gpus": 9.624364021966299
+    },
+    {
+      "n": 22,
+      "processes_per_gpu": 4,
+      "calls_per_second_all_gpus": 8.905717631563482
+    }
+  ],
+  "best_processes_per_gpu": {
+    "18": 1,
+    "22": 1
+  },
+  "options": "--slots-per-gpu 1",
+  "p": 3,
+  "seconds": 20
+}

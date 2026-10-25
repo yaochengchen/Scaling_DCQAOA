@@ -1,0 +1,127 @@
+{
+  "caution": "Pilot calibration only until large independent confirmation",
+  "formula": "gamma=gamma_unit*degree_factor(D)/rms; beta=beta_table; alpha=alpha_unit/rms*(D/D0)**b*c",
+  "rows": [
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.1522880612994689,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.488384887666658,
+      "gamma_unit": -0.47992720370387715,
+      "layer": 1,
+      "p": 1,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.11835271057676165,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.6099083701020982,
+      "gamma_unit": -0.40561973208214225,
+      "layer": 1,
+      "p": 2,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.028048627326467894,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.21380611239873332,
+      "gamma_unit": -0.841616511503429,
+      "layer": 2,
+      "p": 2,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.10517107817474457,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.7194970002280041,
+      "gamma_unit": -0.3420685826129887,
+      "layer": 1,
+      "p": 3,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.0591076665163743,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.33189262718344054,
+      "gamma_unit": -0.8394885559728099,
+      "layer": 2,
+      "p": 3,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.017934801290751298,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.1628073935081092,
+      "gamma_unit": -0.6803210329810107,
+      "layer": 3,
+      "p": 3,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.08474494094841731,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.7590977706367071,
+      "gamma_unit": -0.3009566285286151,
+      "layer": 1,
+      "p": 4,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.046264105719979735,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.4262830292327348,
+      "gamma_unit": -0.7634606298463594,
+      "layer": 2,
+      "p": 4,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.03597957141219097,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.24675637530528038,
+      "gamma_unit": -0.7104844532957387,
+      "layer": 3,
+      "p": 4,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    },
+    {
+      "alpha_degree_power": -0.5,
+      "alpha_multiplier": 1.0,
+      "alpha_unit": -0.008989322297357065,
+      "angle_convention": "U_B U_CD U_C; H_C=sum JZZ; little_endian",
+      "beta": 0.14551545918318706,
+      "gamma_unit": -0.6324278092384049,
+      "layer": 4,
+      "p": 4,
+      "reference_degree": 4.0,
+      "source_csv_gamma_sign": -1
+    }
+  ],
+  "zero_target_instance_training": true
+}

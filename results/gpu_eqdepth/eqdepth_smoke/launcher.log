@@ -1,0 +1,17 @@
+[train] 8 instances x 12 optimizations = 96; pending 96 in 8 instances
+[train] GPUs 0,1,2,3,4,5,6,7, 4 slots/GPU; slots per task: n=18:1
+[train] 1/8 instances, 12/96 optimizations, train-n18-regular3-uniform-003 18s GPU7, elapsed 0.01 h, rough ETA 0.0 h
+[train] 2/8 instances, 24/96 optimizations, train-n18-regular3-uniform-002 19s GPU6, elapsed 0.01 h, rough ETA 0.0 h
+[train] 3/8 instances, 36/96 optimizations, train-n18-regular3-uniform-001 19s GPU5, elapsed 0.01 h, rough ETA 0.0 h
+[train] 4/8 instances, 48/96 optimizations, train-n18-regular3-uniform-000 21s GPU4, elapsed 0.01 h, rough ETA 0.0 h
+[train] 5/8 instances, 60/96 optimizations, train-n18-er05-uniform-002 42s GPU3, elapsed 0.01 h, rough ETA 0.0 h
+[train] 6/8 instances, 72/96 optimizations, train-n18-er05-uniform-001 46s GPU1, elapsed 0.01 h, rough ETA 0.0 h
+[train] 7/8 instances, 84/96 optimizations, train-n18-er05-uniform-000 46s GPU0, elapsed 0.01 h, rough ETA 0.0 h
+[train] 8/8 instances, 96/96 optimizations, train-n18-er05-uniform-003 47s GPU2, elapsed 0.01 h, rough ETA 0.0 h
+[fit/val] 2/2 validation instances
+[fit] FROZEN_MODEL.json sha256=d656f5f2c1604a4614eefdc36c42e3236cb23c69b6043a8873a855d5d5ffef0d
+[test] 2/2 test instances
+[report] results/eqdepth_smoke/EXPERIMENT_REPORT.md
+[train] 8 instances x 12 optimizations = 96; pending 0 in 0 instances
+[train] GPUs 0,1,2,3,4,5,6,7, 4 slots/GPU; slots per task: n=18:1
+[report] results/eqdepth_smoke/EXPERIMENT_REPORT.md

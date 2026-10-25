@@ -1,0 +1,62 @@
+{
+  "n": 12,
+  "p": 2,
+  "test_graph_ids": [
+    "test-n12-regular3-unit-000",
+    "test-n12-regular3-unit-001",
+    "test-n12-regular3-unit-002",
+    "test-n12-er3-unit-000",
+    "test-n12-er3-unit-001",
+    "test-n12-er3-unit-002",
+    "test-n12-regular3-uniform-000",
+    "test-n12-regular3-uniform-001",
+    "test-n12-regular3-uniform-002",
+    "test-n12-er3-uniform-000",
+    "test-n12-er3-uniform-001",
+    "test-n12-er3-uniform-002"
+  ],
+  "starts_per_graph": 20,
+  "budget_evaluations": 500,
+  "methods": [
+    "L-BFGS-B",
+    "COBYLA",
+    "Adam"
+  ],
+  "groups": [
+    [
+      "regular3",
+      "unit"
+    ],
+    [
+      "er3",
+      "unit"
+    ],
+    [
+      "regular3",
+      "uniform"
+    ],
+    [
+      "er3",
+      "uniform"
+    ]
+  ],
+  "base_seed": 20261022,
+  "backend": "pennylane",
+  "pennylane_device": "lightning.qubit",
+  "pennylane_version": "0.45.0",
+  "reused_runs_from": "results\\unified_variational_n12p2_optimizer_compare_pennylane_eval500",
+  "model_sha256": "f2be3446fd992a826dcfec8f6048b27a8ccf21fff146d06faa84fd507d7f1eb4",
+  "adam": {
+    "gradient": "one-sided finite difference",
+    "step": 0.0001,
+    "learning_rate": 0.08,
+    "beta1": 0.9,
+    "beta2": 0.999,
+    "epsilon": 1e-08
+  },
+  "cobyla": {
+    "rhobeg": 0.5,
+    "tol": 0.0001
+  },
+  "workers": 3
+}

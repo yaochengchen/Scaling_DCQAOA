@@ -1,0 +1,111 @@
+{
+ "_note": "handover-document starting size: 20/10/10 per family x weight x n cell",
+ "comparison": "same_depth",
+ "seed": 20261013,
+ "depths": [
+  1,
+  2,
+  3,
+  4,
+  6
+ ],
+ "shots": 0,
+ "exact_max_n": 24,
+ "execution": {
+  "backend": "lightning.gpu",
+  "dtype": "complex128",
+  "gpus": "0,1,2,3,4,5,6,7",
+  "slots_per_gpu": 1,
+  "task_weight_by_n": {}
+ },
+ "optimization": {
+  "restarts": 8,
+  "maxiter": 200
+ },
+ "datasets": {
+  "train": {
+   "n": [
+    18,
+    20,
+    22,
+    24
+   ],
+   "families": [
+    "tree",
+    "ring",
+    "regular3",
+    "regular4",
+    "regular5",
+    "regular6",
+    "er3",
+    "er05",
+    "community",
+    "bipartite"
+   ],
+   "weights": [
+    "unit",
+    "uniform",
+    "bimodal",
+    "lognormal",
+    "heavy_tail"
+   ],
+   "samples_per_cell": 20
+  },
+  "val": {
+   "n": [
+    18,
+    20,
+    22,
+    24
+   ],
+   "families": [
+    "tree",
+    "ring",
+    "regular3",
+    "regular4",
+    "regular5",
+    "regular6",
+    "er3",
+    "er05",
+    "community",
+    "bipartite"
+   ],
+   "weights": [
+    "unit",
+    "uniform",
+    "bimodal",
+    "lognormal",
+    "heavy_tail"
+   ],
+   "samples_per_cell": 10
+  },
+  "test": {
+   "n": [
+    18,
+    20,
+    22,
+    24
+   ],
+   "families": [
+    "tree",
+    "ring",
+    "regular3",
+    "regular4",
+    "regular5",
+    "regular6",
+    "er3",
+    "er05",
+    "community",
+    "bipartite"
+   ],
+   "weights": [
+    "unit",
+    "uniform",
+    "bimodal",
+    "lognormal",
+    "heavy_tail"
+   ],
+   "samples_per_cell": 10
+  }
+ }
+}

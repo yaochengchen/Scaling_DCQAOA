@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or the frozen angle table, please cite it as below."
+title: "Scaling-Guided Parameter Setting for Digitized Counterdiabatic QAOA: A Formula-Based Approach to Weighted MaxCut — code and data"
+type: software
+authors:
+  - family-names: Chen
+    given-names: Yaocheng
+    affiliation: "Instituto de Astronomia, Geofísica e Ciências Atmosféricas, Universidade de São Paulo"
+  - family-names: Zhuang
+    given-names: Jiapei
+license: MIT
+date-released: 2026-10-25
+keywords:
+  - QAOA
+  - counterdiabatic driving
+  - parameter transfer
+  - MaxCut

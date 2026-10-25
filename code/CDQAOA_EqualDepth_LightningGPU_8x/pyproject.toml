@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cdqaoa-transfer-research"
+version = "0.3.0"
+description = "Reproducible training-free transfer experiments for explicit CD-QAOA"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "networkx>=2.8", "matplotlib>=3.7", "threadpoolctl>=3.1"]
+
+[project.optional-dependencies]
+lightning = ["pennylane==0.45.1", "pennylane-lightning==0.45.0"]
+gpu = ["pennylane==0.45.1", "pennylane-lightning-gpu==0.45.0", "custatevec-cu12>=1.10,<2"]
+dev = ["pytest>=7"]
+qiskit = ["qiskit>=1"]
+maxcut = ["pyscipopt>=5", "gurobipy>=13"]
+
+[tool.setuptools.packages.find]
+include = ["cdtransfer*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

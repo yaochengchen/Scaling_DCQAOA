@@ -1,0 +1,13 @@
+{
+  "figures": [
+    "fig01_training_free_protocol.png",
+    "fig02_parameter_concentration.png",
+    "fig03_weight_scale_identity.png",
+    "fig04_fixed_method_comparison.png",
+    "fig05_equal_budget_subgroups.png",
+    "fig06_same_depth_vs_budget.png"
+  ],
+  "source_run": "results\\codex_cpu10h_confirmatory_locked",
+  "statistics": "analysis/final_statistics.json",
+  "subgroups": "analysis/subgroup_results.csv"
+}

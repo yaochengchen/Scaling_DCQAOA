@@ -1,0 +1,23 @@
+{
+  "version": "maxcut-approx-current-v1",
+  "seed": 20261012,
+  "n_values": [8, 10, 12, 14, 16],
+  "layer_n": 12,
+  "depths": [1, 2],
+  "samples_per_cell": 10,
+  "structure_cells": [
+    ["tree", "unit"],
+    ["regular3", "unit"],
+    ["er3", "unit"],
+    ["er6", "unit"]
+  ],
+  "weight_cells": [
+    ["regular3", "unit"],
+    ["regular3", "uniform"],
+    ["regular3", "bimodal"],
+    ["regular3", "lognormal"]
+  ],
+  "methods": ["qaoa_csv", "cd_proposed"],
+  "frozen_model": "assets/CD_TRANSFER_V1_FROZEN_MODEL.json",
+  "bootstrap_resamples": 5000
+}

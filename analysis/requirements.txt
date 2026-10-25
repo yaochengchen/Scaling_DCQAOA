@@ -1,0 +1,7 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+tabulate
+pennylane==0.45.0
+pennylane-lightning==0.45.0
