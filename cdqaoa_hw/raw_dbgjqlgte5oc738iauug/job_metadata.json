@@ -1,0 +1,54 @@
+{
+  "job_id": "dbgjqlgte5oc738iauug",
+  "backend": "ibm_fez",
+  "status": "DONE",
+  "creation_date": "2026-10-27 21:09:58.630238-03:00",
+  "tags": null,
+  "usage_seconds": 189,
+  "metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.51.0,qiskit-2.6.1*",
+    "timestamps": {
+      "created": "2026-10-28T00:09:58.630238Z",
+      "finished": "2026-10-28T00:23:51.330552Z",
+      "running": "2026-10-28T00:15:54.06275Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 189,
+      "value": 3.135596,
+      "unit": "resource_units",
+      "status": "complete",
+      "details": [
+        {
+          "value": 3.135596,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 189
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 181055974912
+  },
+  "options": {
+    "version": 2,
+    "options": {
+      "default_shots": 8000,
+      "dynamical_decoupling": {
+        "enable": true
+      },
+      "twirling": {
+        "enable_gates": true,
+        "enable_measure": true
+      }
+    },
+    "support_qiskit": true
+  },
+  "result_metadata": {
+    "execution": {
+      "execution_spans": "ExecutionSpans([TwirledSliceSpanV2(<start='2026-10-28 00:20:24', stop='2026-10-28 00:23:32', size=672000>)])"
+    },
+    "version": 2
+  }
+}
