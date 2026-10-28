@@ -1,0 +1,1 @@
+{"backend": "pennylane.lightning.qubit", "campaign": "89e6bf6793760e512fa4e7074fa33bdace1a25c12c55c35cb9e7e5b4c09afd6f", "graphs": 1050, "max_energy_reference_error": 3.106492840743158e-11, "max_legacy_probability_error": 6.761258219967203e-14, "methods": ["u1", "old", "qaoa"], "records": 4200}

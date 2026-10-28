@@ -1,0 +1,212 @@
+{
+ "_note": "Files of TQE_reproducibility_2026-10-28 that are byte-identical (SHA-256) to files already in Clean; paths relative to Clean root. Manuscript files are intentionally excluded from this folder.",
+ "files": {
+  "code/pennylane_n12p2.py": {
+   "clean_path": "Scaling_DCQAOA/analysis/pennylane_n12p2.py",
+   "sha256": "7b085291694ed093d735f57cdc5b67c5ca8e44089e21bf24b318b162784de1b2"
+  },
+  "code/reference/assets/original_transfer_data.csv": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/Clean/Clean/code/CDQAOA_EqualDepth_LightningGPU_8x/assets/original_transfer_data.csv",
+   "sha256": "9e3e9c3dcc0b4ee9ce5a39319ae567fa1161ed79a0606355c5b9b6e3f98f15a6"
+  },
+  "code/reference/cdtransfer/__init__.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/__init__.py",
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "code/reference/cdtransfer/analysis.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/analysis.py",
+   "sha256": "e10064b25607dc8a5d860e08ba48ed1dfe7c8de9ec9a1b75fe1336b77629df16"
+  },
+  "code/reference/cdtransfer/cli.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/cli.py",
+   "sha256": "41863c14f36aeada96b07fc3dfcf1ecacc1fca835750406a1f47387d18dceb0c"
+  },
+  "code/reference/cdtransfer/eqdepth.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/eqdepth.py",
+   "sha256": "d561d42bd8881659b942f1de6fdc7868ac54ecb01e9e82a4817c35c3eda4c74e"
+  },
+  "code/reference/cdtransfer/eqdepth_plots.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/eqdepth_plots.py",
+   "sha256": "cc0b9763b1693ff1698cd52577533bd16ffe8f632344fca3707e98c676dc9389"
+  },
+  "code/reference/cdtransfer/gpu_pool.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/gpu_pool.py",
+   "sha256": "bbc5ce387353eca358ea098c8da755c2709f4782b44c1b52cccfb5a40de9e25f"
+  },
+  "code/reference/cdtransfer/instances.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/instances.py",
+   "sha256": "0e713867de71bf455ad693970c6f7ba8937b94fa543bbb55dbf0784448adbc32"
+  },
+  "code/reference/cdtransfer/lightning.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/lightning.py",
+   "sha256": "b9144e1f7d0875c0fe03b67680afd61cdfb5dcfda3e27919198088abadb879e5"
+  },
+  "code/reference/cdtransfer/maxcut.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/maxcut.py",
+   "sha256": "d4c1c5e1cf30447337d108bd49ca904b1ba6bf958a2098c0f9399c96bed6a34f"
+  },
+  "code/reference/cdtransfer/optimization.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/optimization.py",
+   "sha256": "fefd67e7d05d65e1eae3abd739b09a5a796402df88ccbde451c44680ee8e15ff"
+  },
+  "code/reference/cdtransfer/plots.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/plots.py",
+   "sha256": "714cd8bd313e490013c2e676a8e4f88766f776c6bf2241ac8d3a1677a0639be4"
+  },
+  "code/reference/cdtransfer/qiskit_optional.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/qiskit_optional.py",
+   "sha256": "03742c3c57a686d2c051cf8ec5917118d1de531c1864d10ac9e7371406002e50"
+  },
+  "code/reference/cdtransfer/qulacs_optional.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/qulacs_optional.py",
+   "sha256": "da536d44a6f4cf1efd3a2a53059f386a5c3674e3d6ffe93562807da356ad4111"
+  },
+  "code/reference/cdtransfer/resources.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/resources.py",
+   "sha256": "3b7e707031902714b2cfecd3080ced18a742c946ecbd02d9594b2e8c13a8f224"
+  },
+  "code/reference/cdtransfer/simulator.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/simulator.py",
+   "sha256": "14e796eefc3ea13f4b6da2608b52bdaf8cce37d872ef6ab9c4765ec953b46cb5"
+  },
+  "code/reference/cdtransfer/transfer.py": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/cdtransfer/transfer.py",
+   "sha256": "b91373b2478df68a538efa475cf687f086451dd6fa329476633f512ff3404d79"
+  },
+  "hardware/ibm_tqe_hw.py": {
+   "clean_path": "cdqaoa_hw/ibm_tqe_hw.py",
+   "sha256": "42b6070cab86ee1aa795c776eed6f88dcb66523a23791263efc4b8230631a323"
+  },
+  "hardware/raw_dbgjqlgte5oc738iauug/calibration.json": {
+   "clean_path": "cdqaoa_hw/raw_dbgjqlgte5oc738iauug/calibration.json",
+   "sha256": "77093391e424859de1186626f8ed685f496edd25e0820af635110aedde251b2c"
+  },
+  "hardware/raw_dbgjqlgte5oc738iauug/circuits.csv": {
+   "clean_path": "cdqaoa_hw/raw_dbgjqlgte5oc738iauug/circuits.csv",
+   "sha256": "3688ab9c1993cb153ffc91221eace39420e1876be4979c3d136cbfff18f7dfa1"
+  },
+  "hardware/raw_dbgjqlgte5oc738iauug/counts.json": {
+   "clean_path": "cdqaoa_hw/raw_dbgjqlgte5oc738iauug/counts.json",
+   "sha256": "ed95358c28152d479624e62b14e535dcb78f4a2d0927ba8d2941663a93b5f691"
+  },
+  "hardware/raw_dbgjqlgte5oc738iauug/isa_circuits.qpy": {
+   "clean_path": "cdqaoa_hw/raw_dbgjqlgte5oc738iauug/isa_circuits.qpy",
+   "sha256": "18eafed4fdd2b0e47bd6d69d0e5bd7f5d4619db0f0377b057a7d8272bc58ff6d"
+  },
+  "hardware/raw_dbgjqlgte5oc738iauug/job_metadata.json": {
+   "clean_path": "cdqaoa_hw/raw_dbgjqlgte5oc738iauug/job_metadata.json",
+   "sha256": "34a7804ca802391b4ab07db74229de05961d53d5833e0d615cd3710da144ca03"
+  },
+  "hardware/raw_dbgjqlgte5oc738iauug/stats.csv": {
+   "clean_path": "cdqaoa_hw/raw_dbgjqlgte5oc738iauug/stats.csv",
+   "sha256": "2e589fcb2ccfbade62fcea876153936e48e930e73394f922474a34a22a475e97"
+  },
+  "hardware/tqe_hw_plan.json": {
+   "clean_path": "cdqaoa_hw/tqe_hw_plan.json",
+   "sha256": "ac0e836c5da2b08c0e0fc41d5f6836b3a08b149740f79da551ab53d96b2769e4"
+  },
+  "hardware/tqe_hw_results.csv": {
+   "clean_path": "cdqaoa_hw/tqe_hw_results.csv",
+   "sha256": "efd4a28cc3e8884872dc490291c049a6c5026b5a2c10b4673b6e47ebcecbfd29"
+  },
+  "inputs/eqdepth_large_N20_heldout_results.json.gz": {
+   "clean_path": "Scaling_DCQAOA/results/gpu_eqdepth/eqdepth_large_N20/heldout_results.json.gz",
+   "sha256": "4bfeccc8dc5181fa50729521dfb09733883250b7f238c57420e10ddc88a55c38"
+  },
+  "inputs/eqdepth_large_N20_manifest.json.gz": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/inputs/eqdepth_large_N20_manifest.json.gz",
+   "sha256": "3c247fc767c7a5a31763a6f827cbd4a1c892ad3f5d09e888ff16e1b5abf0cd0b"
+  },
+  "inputs/eqdepth_small_N20_heldout_results.json.gz": {
+   "clean_path": "Scaling_DCQAOA/results/gpu_eqdepth/eqdepth_small_N20/heldout_results.json.gz",
+   "sha256": "7ed687a12801287a2711a3dfa1f554eb0da48da67fa035409e3639fe1ccbe626"
+  },
+  "inputs/eqdepth_small_N20_manifest.json.gz": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/inputs/eqdepth_small_N20_manifest.json.gz",
+   "sha256": "2b1a90fcb19065e5d3b6c0362020ae6ba53bfebeb4c4f725c1681c41ef298911"
+  },
+  "inputs/extra_best_optima.csv.gz": {
+   "clean_path": "Scaling_DCQAOA/exports/cd-qaoa-gpu-transfer/data/extra_best_optima.csv.gz",
+   "sha256": "10f02081b15bc5e049befdc72a2f18d6c2949b7ba4b68436c4ca05f106737967"
+  },
+  "inputs/figure5_refinement_inputs.json": {
+   "clean_path": "Scaling_DCQAOA/code/CDQAOA_EqualDepth_LightningGPU_8x/assets/prr_formula_init_inputs.json",
+   "sha256": "fb267c7df0ba85cb3c52c24add6f336615309e051d62c67b9d2bdddaa2e396c2"
+  },
+  "inputs/large_best_optima.csv.gz": {
+   "clean_path": "Scaling_DCQAOA/exports/cd-qaoa-gpu-transfer/data/large_best_optima.csv.gz",
+   "sha256": "df41bbc1fdcef3fa0d6b241104f8fc04713426f4106f08507bc2b86e8598056c"
+  },
+  "inputs/optimizer_benchmark/manifest.json": {
+   "clean_path": "Scaling_DCQAOA/results/unified_variational_n12p2_optimizer_compare_pennylane_starts20_eval500/manifest.json",
+   "sha256": "51923c8d647eb03e38288996ab411864e328fbe369c53cb9b2497ebe2598123d"
+  },
+  "inputs/optimizer_benchmark/summary.json": {
+   "clean_path": "Scaling_DCQAOA/results/unified_variational_n12p2_optimizer_compare_pennylane_starts20_eval500/summary.json",
+   "sha256": "cafeb5415b0d89c44395c363c5a3ea2f9322a11eb46391bd3d781a4cf2f93c80"
+  },
+  "inputs/original_effective_exponents.csv": {
+   "clean_path": "Scaling_DCQAOA/analysis/outputs_prr/P3_exponents.csv",
+   "sha256": "94c232dba5261e165ea7327fe25a2c48e9b16dd677ceec9901a603396436c8a0"
+  },
+  "inputs/original_model.json": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/inputs/original_model.json",
+   "sha256": "f2be3446fd992a826dcfec8f6048b27a8ccf21fff146d06faa84fd507d7f1eb4"
+  },
+  "inputs/small_best_optima.csv.gz": {
+   "clean_path": "Scaling_DCQAOA/exports/cd-qaoa-gpu-transfer/data/small_best_optima.csv.gz",
+   "sha256": "f76e6ed099f47c33d9ddaf85c01d50d328b2b37b6c5e6aeebbeb2d925b93106e"
+  },
+  "models/U1_power_law.json": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/models/U1_power_law.json",
+   "sha256": "a9f03715e0126fc9e562b3611dfd8e421b1b57ff3611a2603dc988779e27b602"
+  },
+  "provenance/original_code/compare_optimizers_n12p2.py": {
+   "clean_path": "Scaling_DCQAOA/analysis/compare_optimizers_n12p2.py",
+   "sha256": "854c93d3d2ec5fc2fa7a59c122c267d8b25093d5aa0498f021a55b412bc2e8a4"
+  },
+  "provenance/original_code/evaluate_unified_table.py": {
+   "clean_path": "Scaling_DCQAOA/analysis/evaluate_unified_table.py",
+   "sha256": "0a1ed83bd106830488d94941c10ba8b8ab50f7352ad6220b4c8dde194ca0ee02"
+  },
+  "provenance/original_code/pennylane_n12p2.py": {
+   "clean_path": "Scaling_DCQAOA/analysis/pennylane_n12p2.py",
+   "sha256": "7b085291694ed093d735f57cdc5b67c5ca8e44089e21bf24b318b162784de1b2"
+  },
+  "provenance/original_code/pennylane_probability_1050/core.py": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/code/pennylane_probability_1050/core.py",
+   "sha256": "a7e50c79a32ecd2e8ed1abb30d0666b18de9d9d0170925d11e27daaab978bda5"
+  },
+  "provenance/original_code/pennylane_probability_1050/import_snapshot.py": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/code/pennylane_probability_1050/import_snapshot.py",
+   "sha256": "076f51030c89dfe98f80cb062c0aeb895af127bab5f48b05ad66fa976f0fbcf3"
+  },
+  "provenance/original_code/pennylane_probability_1050/plots.py": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/code/pennylane_probability_1050/plots.py",
+   "sha256": "eaaf17f51c5b382d847596c1a8ccd6f237f7335fe622c61537bd4983b95597a5"
+  },
+  "provenance/original_code/pennylane_probability_1050/test_core.py": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/code/pennylane_probability_1050/test_core.py",
+   "sha256": "ac047792a7934e810dcacbe76c8ecd6580da199fa4630f5da8d70baf9eb75554"
+  },
+  "provenance/original_code/pennylane_probability_1050/test_plot_smoke.py": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/code/pennylane_probability_1050/test_plot_smoke.py",
+   "sha256": "c7198bf0c0f0711a460f7613375ce0de7c32c4db1f0f7c7f488db90dc61a5b53"
+  },
+  "provenance/original_code/unified_variational_n16p2.py": {
+   "clean_path": "Scaling_DCQAOA/analysis/unified_variational_n16p2.py",
+   "sha256": "4d02f7fd7bebd090387d260b6c617efe25b082f9a5b3a86f0193208eb5ba35df"
+  },
+  "results/pennylane_probability_1050/manifest.json": {
+   "clean_path": "Scaling_DCQAOA/Optimal_Success_Probability/study/snapshot/source_manifest.json",
+   "sha256": "a39e692d8b11e3368f4ad1738a439d798da71c0ef6239271a7fdc4e7841c8984"
+  }
+ },
+ "zip_members": {
+  "inputs/optimizer_benchmark/runs/": {
+   "zip": "Scaling_DCQAOA/results/unified_variational_n12p2_optimizer_compare_pennylane_starts20_eval500/runs.zip",
+   "count": 720,
+   "note": "zip member <method>/<file> == inputs/optimizer_benchmark/runs/<method>/<file>; all 720 SHA-256 identical"
+  }
+ }
+}

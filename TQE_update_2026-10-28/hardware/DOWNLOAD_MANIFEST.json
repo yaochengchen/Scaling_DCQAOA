@@ -1,0 +1,190 @@
+{
+  "repository": "https://github.com/yaochengchen/Scaling_DCQAOA",
+  "branch": "main",
+  "commit": "ed32b131c9d2bfc115015dbc9f91aafd8aa93d03",
+  "snapshot_date_Asia_Shanghai": "2026-10-28",
+  "files": [
+    {
+      "file": "circuit-dbgb8v5rd2mc73cucek0.svg",
+      "bytes": 292325,
+      "git_blob_sha1": "d955c81a165df0b99ae1d88a882adee6887c2b09",
+      "sha256": "241c852936dff23fd718306d93456dcc17dd2f39cace128b12bc55121d334b5f",
+      "existing_local": "new"
+    },
+    {
+      "file": "circuit-dbgjqlgte5oc738iauug.svg",
+      "bytes": 141669,
+      "git_blob_sha1": "a7099bd8b03221087dda0720dfd06767af1de8db",
+      "sha256": "bef36f9c042a85170eabef68d61c6751af2b619f61f0a49fff298c671833f235",
+      "existing_local": "new"
+    },
+    {
+      "file": "fetch_raw_job.py",
+      "bytes": 5485,
+      "git_blob_sha1": "a75f739c792abd5dffb70e6b01a1554eea3a3eb7",
+      "sha256": "24da6595a30bd44a10cc42982e41b182e6204d51326a55da5416046536603896",
+      "existing_local": "new"
+    },
+    {
+      "file": "fetch_raw_tqe_job.py",
+      "bytes": 6045,
+      "git_blob_sha1": "7158202ebe2ce1f1f1b036fb0ffcba0e8239cb0a",
+      "sha256": "b807c040a3256ca322a8707118004091a9dc1dbfc6c1a521908b5a07c2ca2519",
+      "existing_local": "new"
+    },
+    {
+      "file": "hw_results.csv",
+      "bytes": 3859,
+      "git_blob_sha1": "3d93f18015d945cb358a9e7cc8b8696349ecdabf",
+      "sha256": "707c59040f72785afd006d087cc6c78f76a94f4dce81e2e18d04c34eed300fc5",
+      "existing_local": "identical"
+    },
+    {
+      "file": "hw_run.json",
+      "bytes": 31623,
+      "git_blob_sha1": "e4a3a5417c2c82e21fb864d284cda25e61c684ba",
+      "sha256": "b6888778fe44fce1ec33892f4f7b65a93fc2cd8047f0752574065c1a3f52ca11",
+      "existing_local": "identical"
+    },
+    {
+      "file": "ibm_cdqaoa_hw.py",
+      "bytes": 8583,
+      "git_blob_sha1": "f91212efef27979c5b5ad80fd48f2e0938e17909",
+      "sha256": "6a8acd735a3f18c98b879ad761b0eaeb09c4c102ced82953d51d7838f6b45e88",
+      "existing_local": "identical"
+    },
+    {
+      "file": "ibm_tqe_hw.py",
+      "bytes": 7581,
+      "git_blob_sha1": "b5ff32a64099447a00b3552cdbd1ae09e48264fb",
+      "sha256": "42b6070cab86ee1aa795c776eed6f88dcb66523a23791263efc4b8230631a323",
+      "existing_local": "new"
+    },
+    {
+      "file": "output_results.txt",
+      "bytes": 673,
+      "git_blob_sha1": "47b94de28d98d4b04072f8be06bde6bca943dba9",
+      "sha256": "d104bd704487e5aadd41a4ecc31b5ad34353941d3fc04862e713a41cefa2fb86",
+      "existing_local": "identical"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/bitstrings.npz",
+      "bytes": 504213,
+      "git_blob_sha1": "14ef107fd25498f16bb821dc588d2d71eadd3dd9",
+      "sha256": "a4ddf14cccc874e91c05b5e5dd3381aff47e9d46ed29d7edb6eb26f407545ce8",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/calibration.json",
+      "bytes": 1415172,
+      "git_blob_sha1": "4b867ae9e44296509cd5dc344352e236f6b89a4e",
+      "sha256": "d99d9e0579946c6719bca376d254def1ba6d9229864df5b5e2c781f26764026f",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/circuits.csv",
+      "bytes": 6186,
+      "git_blob_sha1": "f64e8a77a41bffc2caa96fb942f4f3c4492ddd76",
+      "sha256": "70e121f1f3b16c3f929610978042b3d190adf0483635decb0eeaafab841af0b2",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/counts.json",
+      "bytes": 5118014,
+      "git_blob_sha1": "b63274f77c5be0c735e5abb2ccca3548babbf213",
+      "sha256": "68fba7e78acf9a1f62ea27d4a8a8363ad291a55a371ed970d3f87e0e6a64f812",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/isa_circuits.qpy",
+      "bytes": 4842832,
+      "git_blob_sha1": "a4c6e94f3ebdf073f00769aef6faf747ff7fcbb2",
+      "sha256": "631ac88d62a7e034299efd54df3ee4329612752af3fbd2a3c7eb27776be6a6ef",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/job_metadata.json",
+      "bytes": 1375,
+      "git_blob_sha1": "4b32c6d2e4048c3b9ea992f7665ace75f036d1bb",
+      "sha256": "98e8dc3d87ad86f8cec357f53bb01c0f61f26b2db8c0e78904f9ac6146c807bb",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgb8v5rd2mc73cucek0/stats.csv",
+      "bytes": 6837,
+      "git_blob_sha1": "0675e5d969778af97bbfe2f98e98400485dacba7",
+      "sha256": "19dcaf055484ea132c4f6105317283b19065ea74ac796390f79e992d59900321",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/bitstrings.npz",
+      "bytes": 1481464,
+      "git_blob_sha1": "dd414a6c9d22b19039c36a203095331d6819b613",
+      "sha256": "ae43656cde846641c3567f9c511ed914e0c7db1b964157041cc353a07b2548d3",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/calibration.json",
+      "bytes": 1415222,
+      "git_blob_sha1": "b3a648fe11d004740a7eefab5dc99c0bd25a1e8b",
+      "sha256": "77093391e424859de1186626f8ed685f496edd25e0820af635110aedde251b2c",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/circuits.csv",
+      "bytes": 9528,
+      "git_blob_sha1": "8a385d530d77036fedb71d0fc332f575f2690852",
+      "sha256": "3688ab9c1993cb153ffc91221eace39420e1876be4979c3d136cbfff18f7dfa1",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/counts.json",
+      "bytes": 14000690,
+      "git_blob_sha1": "6e866ffc6c21befedf7ad04072a89307e3e861d4",
+      "sha256": "ed95358c28152d479624e62b14e535dcb78f4a2d0927ba8d2941663a93b5f691",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/isa_circuits.qpy",
+      "bytes": 5575280,
+      "git_blob_sha1": "6073f7cb9378a58a79ccc179f5429890da4ce106",
+      "sha256": "18eafed4fdd2b0e47bd6d69d0e5bd7f5d4619db0f0377b057a7d8272bc58ff6d",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/job_metadata.json",
+      "bytes": 1378,
+      "git_blob_sha1": "2d53fa7c65d278bac8feb0402300e8b47a247597",
+      "sha256": "34a7804ca802391b4ab07db74229de05961d53d5833e0d615cd3710da144ca03",
+      "existing_local": "new"
+    },
+    {
+      "file": "raw_dbgjqlgte5oc738iauug/stats.csv",
+      "bytes": 17166,
+      "git_blob_sha1": "3a876d871c225c4ad4f9dd57f784aab54e006fd7",
+      "sha256": "2e589fcb2ccfbade62fcea876153936e48e930e73394f922474a34a22a475e97",
+      "existing_local": "new"
+    },
+    {
+      "file": "tqe_hw_plan.json",
+      "bytes": 119374,
+      "git_blob_sha1": "baf8f1ad148993d8bb0e3fecd288ff918c89b4c6",
+      "sha256": "ac0e836c5da2b08c0e0fc41d5f6836b3a08b149740f79da551ab53d96b2769e4",
+      "existing_local": "new"
+    },
+    {
+      "file": "tqe_hw_results.csv",
+      "bytes": 13921,
+      "git_blob_sha1": "74cc2c0c4d5bf7a2fc00c29090b39565a7d06cab",
+      "sha256": "efd4a28cc3e8884872dc490291c049a6c5026b5a2c10b4673b6e47ebcecbfd29",
+      "existing_local": "new"
+    },
+    {
+      "file": "tqe_output_results.txt",
+      "bytes": 2339,
+      "git_blob_sha1": "189d5f98d32ba870d14f876924a17578d9f0ce04",
+      "sha256": "8f3bc4f9c6bbd2ba3ffa4492b9504bb0541e6d0c2cda3454cfaa9ae15c12bb14",
+      "existing_local": "new"
+    }
+  ]
+}

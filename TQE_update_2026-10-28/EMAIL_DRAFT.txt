@@ -1,0 +1,10 @@
+Subject: Updated TQE manuscript and reproducibility package
+
+Dear Jiapei,
+
+Attached is the latest manuscript for IEEE Transactions on Quantum Engineering, including the supplementary material, LaTeX sources, figures, and the code and data needed to reproduce the main results. The approved language edits have been incorporated, and the README explains how to regenerate the figures and run the optional simulations.
+
+Could you please review this version and let me know if you have any final comments before submission?
+
+Best,
+Yaocheng
